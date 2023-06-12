@@ -72,7 +72,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
   m_Name: Standalone
   m_EditorClassIdentifier: 
-  features: []
+  features:
+  - {fileID: -7384156586885549332}
+  - {fileID: -4839917379323626324}
+  - {fileID: 8315491726338264821}
+  - {fileID: -2664238359777539358}
+  - {fileID: 2771092523180935072}
+  - {fileID: 5466895928018418394}
+  - {fileID: -3258968159186358352}
+  - {fileID: -3280737789133455716}
+  - {fileID: -5005878217406473288}
+  - {fileID: 329083704423947523}
+  - {fileID: -1050521261275675041}
   m_renderMode: 1
   m_depthSubmissionMode: 0
 --- !u!114 &-5005878217406473288
