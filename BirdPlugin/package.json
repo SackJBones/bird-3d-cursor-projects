@@ -16,8 +16,8 @@
     ],
     "documentationUrl": "https://github.com/SackJBones/bird-3d-cursor",
     "author": {
-      "name": "Rodolphe Houdas",
-      "email": "rodolphe.houdas@ultraleap.com"
+      "name": "Aubrey Simonson",
+      "email": "asimonso@mit.edu"
     },
     "dependencies": {
       "com.ultraleap.tracking": "6.8.1"
