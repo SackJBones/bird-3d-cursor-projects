@@ -18,5 +18,8 @@
     "author": {
       "name": "Rodolphe Houdas",
       "email": "rodolphe.houdas@ultraleap.com"
+    },
+    "dependencies": {
+      "com.ultraleap.tracking": "6.8.1"
     }
   }
