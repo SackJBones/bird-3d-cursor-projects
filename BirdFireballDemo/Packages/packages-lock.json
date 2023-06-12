@@ -1,5 +1,20 @@
 {
   "dependencies": {
+    "com.bird3d.cursor": {
+      "version": "file:C:/Users/RodolpheHoudas/Desktop/Projects/bird-3d-cursor-github/BirdPlugin",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.ultraleap.tracking": "6.8.1"
+      }
+    },
+    "com.ultraleap.tracking": {
+      "version": "6.8.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
