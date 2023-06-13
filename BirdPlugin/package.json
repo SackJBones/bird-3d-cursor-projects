@@ -1,0 +1,25 @@
+{
+    "name": "com.bird3d.cursor",
+    "version": "0.0.1",
+    "description": "Bird3D cursor developed by MIT Media Labs",
+    "displayName": "Bird3D Cursor",
+    "unity": "2020.3",
+    "license": "MIT",
+    "keywords": [
+      "ultraleap",
+      "hand tracking",
+      "tracking",
+      "mit",
+      "xr",
+      "cursor",
+      "interaction"
+    ],
+    "documentationUrl": "https://github.com/SackJBones/bird-3d-cursor",
+    "author": {
+      "name": "Aubrey Simonson",
+      "email": "asimonso@mit.edu"
+    },
+    "dependencies": {
+      "com.ultraleap.tracking": "6.8.1"
+    }
+  }

@@ -1,0 +1,17 @@
+{
+    "name": "Bird3D.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "Ultraleap.Tracking.Core",
+        "LeapMotion.LeapCSharp"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
