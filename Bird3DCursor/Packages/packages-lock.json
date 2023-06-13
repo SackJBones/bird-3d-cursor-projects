@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.bird3d.cursor": {
-      "version": "file:C:/Users/RodolpheHoudas/Desktop/Projects/bird-3d-cursor-github/BirdPlugin",
+      "version": "file:../../BirdPlugin",
       "depth": 0,
       "source": "local",
       "dependencies": {
