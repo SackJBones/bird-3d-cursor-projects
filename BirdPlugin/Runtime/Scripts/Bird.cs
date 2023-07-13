@@ -139,7 +139,7 @@ public class Bird : MonoBehaviour {
 
         List<Vector3> points = new List<Vector3>()
         {
-            hand.GetThumb().Bone(Bone.BoneType.TYPE_PROXIMAL).PrevJoint,
+            hand.GetThumb().Bone(Bone.BoneType.TYPE_INTERMEDIATE).PrevJoint,
             hand.GetThumb().Bone(Bone.BoneType.TYPE_DISTAL).PrevJoint,
             hand.GetIndex().Bone(Bone.BoneType.TYPE_PROXIMAL).PrevJoint,
             hand.GetMiddle().Bone(Bone.BoneType.TYPE_PROXIMAL).PrevJoint,
