@@ -1,7 +1,7 @@
 ﻿///PART OF SPHERE FIT BIRD
 ///Sphere Fit Bird is a collaboration between Dana Gretton (good at math) and
 ///Aubrey Simonson (his boyfriend, inventor) based on Aubrey's 2021 MIT Media Lab Thesis project, Bird.
-///For more information on Bird, see: https://drive.google.com/file/d/1p6IUu9QIzWNBERz3IW_yVcojQjVz06rl/view?usp=sharing
+///For more information on Bird, see: https://dspace.mit.edu/handle/1721.1/142815
 ///This project works with the OVR Toolkit, and once OpenXR is more stable, someone should probably make an OpenXR version.
 /// 
 /// Bird.cs handles all of the crazy linear algebra for converting the hand skeleton points to 
