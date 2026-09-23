@@ -11,3 +11,10 @@ Next: add a UdonSharp hand-data diagnostic, compile it with the real SDK, and ch
 The separately installed **Bird Quest Smoke** APK is a synthetic standalone Unity deployment test, not this VRChat world.
 
 Setup references: [official VPM CLI](https://vcc.docs.vrchat.com/vpm/cli/), [VRChat editor version](https://creators.vrchat.com/sdk/upgrade/current-unity-version/).
+
+
+## Hand-data diagnostic
+
+`Assets/BirdWorld/Scenes/BirdHandProbe.unity` adds a local-only UdonSharp availability probe with 32 initially hidden, collider-free avatar-bone markers and a world-space status label. It is not a Bird solver. Before opening this scene from a fresh checkout, copy `BirdHandDataProbe.cs` **and its .meta** from the lightweight repository's `Integrations/VRChat` into `Assets/BirdGenerated/Runtime/`, then compile UdonSharp. The program asset keeps a stable reference to that script GUID; generated source copies and serialized bytecode are ignored here. See the lightweight integration README for complete setup and limitations.
+
+The reusable generator/checker is `tests/UnityVRChatProbeChecks.cs` in the lightweight repository. Its `Run` entry point creates a new probe scene without overwriting one; `ValidateSaved` reopens an existing scene and checks the saved marker, label and compiled-program references. Compilation and saved-reference validation do not establish ClientSim or device behavior.
