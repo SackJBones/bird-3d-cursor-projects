@@ -1,0 +1,17 @@
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/Build/
+/Builds/
+/Assets/BirdGenerated/
+/Assets/BirdGenerated.meta
+/Assets/SerializedUdonPrograms/
+/Assets/SerializedUdonPrograms.meta
+/Assets/UdonSharp/
+/Assets/UdonSharp.meta
+/*.csproj
+/*.sln
+/*.log
+/*-result.txt
