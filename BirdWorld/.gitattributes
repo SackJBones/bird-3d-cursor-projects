@@ -1,6 +1,7 @@
 # Unity writes empty YAML values with trailing spaces; preserve its serialization.
 *.unity whitespace=-blank-at-eol
 *.asset whitespace=-blank-at-eol
+*.mat whitespace=-blank-at-eol
 *.meta whitespace=-blank-at-eol
 # Keep the official resolver distribution byte-for-byte rather than reformatting it.
 Packages/com.vrchat.core.vpm-resolver/** -whitespace

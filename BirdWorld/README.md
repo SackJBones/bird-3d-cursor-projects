@@ -36,3 +36,10 @@ The lightweight integration now also contains BirdSphereFit.cs and its stable me
 
 
 BirdCursorState now composes the fitter with the original unfiltered range law and click hysteresis. UnityUdonCursorChecks.Run passes 51 compiled-Udon assertions using two independent, temporary synthetic cursor instances. Restore cursor/fitter sources and metas plus the editor-only helper to Assets/BirdGenerated/Runtime; see the lightweight integration README for setup and sample-pulse semantics. This is unsmoothed caller-fed state, not an authored visible demo, avatar input integration or physical tracking validation.
+
+
+## Visible synthetic demo
+
+Open Assets/BirdWorld/Scenes/BirdSyntheticDemo.unity for two labeled automatic cursors, cyan/pink tapered trails and gold press feedback with click counters. Before opening a fresh checkout, restore BirdSphereFit.cs, BirdCursorState.cs, BirdSyntheticDemo.cs and their stable metas from the lightweight Integrations/VRChat folder into Assets/BirdGenerated/Runtime, then compile UdonSharp. Each trail is capped at 64 points. These are synthetic tetrahedral poses, not tracked hands; there is no avatar input, filtering or multiplayer synchronization yet.
+
+Reusable generator/validator: lightweight tests/UnityUdonDemoChecks.cs. Generate refuses existing scene/program assets; Validate reopens the scene in ClientSim, checks clicks/bounded trails/pause/recovery, and captures a camera image with only authored demo visuals (temporarily excludes simulator avatar/UI). Validation does not bypass or acknowledge the simulator disclaimer and does not change global preferences. A normal interactive Play session may require accepting ClientSim's introductory panel. No VRChat upload/client test is implied.
