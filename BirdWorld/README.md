@@ -52,3 +52,6 @@ Both saved synthetic cursor instances now enable optional Kalman smoothing. The 
 
 
 Experimental avatar input is available in the lightweight BirdAvatarInput source and UnityAvatarInputChecks fixture, but is not wired into this synthetic scene. Default ClientSim avatar bones mapped correctly and recovered from controlled missing-avatar data, yet produced roughly 1.25 km cursor ranges under the existing range law. The adapter rejects results above a configurable 3 m preview limit and disables clicks because distal bones are not fingertips. Avatar calibration is required before enabling an end-user mode; no hand-tracking claim follows. BirdCursorState now exposes clicksAllowed (default true) so an approximate input source can suppress/release clicks explicitly.
+
+
+The avatar calibration fixture now measures both hands at half/normal/1.5x/restored size and compares compiled fits with the original equations. Raw ranges are roughly 20/1250/14220 m; baseline-hand-size normalization stabilizes the result but does not fix its unusable baseline. Reviewed metrics and analysis are preserved in the lightweight docs/modernization/AVATAR-CALIBRATION.md and data CSV. No production calibration or authored-scene change follows from this single default-avatar pose.
