@@ -33,3 +33,6 @@ ClientSim scaling also passes via UnityClientSimProbeChecks.RunScale: runtime ey
 
 
 The lightweight integration now also contains BirdSphereFit.cs and its stable meta: a caller-fed Udon sphere fitter, separate from the hand probe. Its UnityUdonSphereFitChecks.Run fixture passes 18 synthetic cases through compiled Udon, including original algebraic-reference agreement and invalid/degenerate recovery. Restore the source/meta and editor-only helper to Assets/BirdGenerated/Runtime as described in the lightweight integration README. The test creates an ignored program asset and unsaved object; the authored world scenes do not yet contain a fitted cursor or click interaction.
+
+
+BirdCursorState now composes the fitter with the original unfiltered range law and click hysteresis. UnityUdonCursorChecks.Run passes 51 compiled-Udon assertions using two independent, temporary synthetic cursor instances. Restore cursor/fitter sources and metas plus the editor-only helper to Assets/BirdGenerated/Runtime; see the lightweight integration README for setup and sample-pulse semantics. This is unsmoothed caller-fed state, not an authored visible demo, avatar input integration or physical tracking validation.
