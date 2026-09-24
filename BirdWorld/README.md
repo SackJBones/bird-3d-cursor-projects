@@ -30,3 +30,6 @@ Controlled missing-avatar recovery also passes in ClientSim: UnityClientSimProbe
 
 
 ClientSim scaling also passes via UnityClientSimProbeChecks.RunScale: runtime eye height 1.9 -> 0.95 -> 2.85 -> 1.9 m, all 32 Udon markers matching SDK bone positions within 2 mm, wrist-relative lengths scaling/recovering, and counts remaining 16/16 per hand. This proves probe following on the simulator avatar; it does not establish solver calibration, real avatar changes or hardware tracking. Original eye height is restored and no scene/global preferences are saved.
+
+
+The lightweight integration now also contains BirdSphereFit.cs and its stable meta: a caller-fed Udon sphere fitter, separate from the hand probe. Its UnityUdonSphereFitChecks.Run fixture passes 18 synthetic cases through compiled Udon, including original algebraic-reference agreement and invalid/degenerate recovery. Restore the source/meta and editor-only helper to Assets/BirdGenerated/Runtime as described in the lightweight integration README. The test creates an ignored program asset and unsaved object; the authored world scenes do not yet contain a fitted cursor or click interaction.
