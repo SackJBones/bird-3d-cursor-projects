@@ -21,3 +21,6 @@ The reusable generator/checker is `tests/UnityVRChatProbeChecks.cs` in the light
 
 
 ClientSim checkpoint (2026-09-24 UTC): the real running probe reports 16/16 bones per hand on the default desktop avatar and its Udon counts agree with marker visibility. The lifecycle harness currently fails automatic disable cleanup; directly dispatching the compiled cleanup event works. The root cause is still under investigation. See lightweight tests/UnityClientSimProbeChecks.cs and the modernization checkpoint. No physical hand-tracking claim follows from desktop avatar bone availability.
+
+
+Explicit probe controls are now tested in ClientSim: send PauseProbe to stop sampling and clear markers/counts, and ResumeProbe to restart. Use pause before deactivation when the status label must clear. The frame-based automatic-disable diagnostic remains separate; its status is recorded in the lightweight checkpoint. Generated validation helpers now belong in Assets/BirdGenerated/Runtime under UNITY_EDITOR guards, not the Editor folder.
