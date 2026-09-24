@@ -46,3 +46,6 @@ Reusable generator/validator: lightweight tests/UnityUdonDemoChecks.cs. Generate
 
 
 The synthetic demo now has local PAUSE/RESUME and CLEAR TRAILS interaction buttons (3 m proximity). Clear preserves click counters and pause state. Restore the fourth source/meta pair, BirdDemoControl, together with BirdSphereFit, BirdCursorState and BirdSyntheticDemo on fresh checkout. Reproduction order: Generate, AddControls, Validate; AddControls refuses duplicate upgrades. Compiled Interact handler checks are separate from physical pointer/controller activation and in-headset usability.
+
+
+Both saved synthetic cursor instances now enable optional Kalman smoothing. The Udon recurrence uses Bird's Q=0.001 and distance-dependent R=270*d^3; first input and recovery after loss/cancel seed directly at the new measurement. This intentionally differs from the legacy zero/stale initialization. The cursor fixture passes 97 compiled-Udon assertions including comparison with the original C# filter and synthetic jitter/recovery checks. Copy the original KalmanFilterVector3.cs into the ignored generated runtime directory only when running that comparison fixture; production Udon does not depend on it. To reproduce the smoothed scene after Generate/AddControls, run EnableSmoothing before Validate. Physical comfort, sample-rate tuning and avatar input remain unvalidated.
