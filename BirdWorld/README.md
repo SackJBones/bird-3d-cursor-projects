@@ -24,3 +24,6 @@ ClientSim checkpoint (2026-09-24 UTC): the real running probe reports 16/16 bone
 
 
 Explicit probe controls are now tested in ClientSim: send PauseProbe to stop sampling and clear markers/counts, and ResumeProbe to restart. Use pause before deactivation when the status label must clear. The frame-based automatic-disable diagnostic remains separate; its status is recorded in the lightweight checkpoint. Generated validation helpers now belong in Assets/BirdGenerated/Runtime under UNITY_EDITOR guards, not the Editor folder.
+
+
+Controlled missing-avatar recovery also passes in ClientSim: UnityClientSimProbeChecks.RunMissingBones temporarily removes the local simulator avatar animator reference, verifies SDK zero positions for all 32 sampled bones and Udon marker/count/label clearing, then restores the reference and verifies 16/16 availability per hand. This SDK-specific runtime fixture saves no scene changes and does not establish actual avatar-switch, selective missing-bone, scale or physical tracking-loss behavior. See the lightweight tests README for reproduction.
