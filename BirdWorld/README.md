@@ -55,3 +55,6 @@ Experimental avatar input is available in the lightweight BirdAvatarInput source
 
 
 The avatar calibration fixture now measures both hands at half/normal/1.5x/restored size and compares compiled fits with the original equations. Raw ranges are roughly 20/1250/14220 m; baseline-hand-size normalization stabilizes the result but does not fix its unusable baseline. Reviewed metrics and analysis are preserved in the lightweight docs/modernization/AVATAR-CALIBRATION.md and data CSV. No production calibration or authored-scene change follows from this single default-avatar pose.
+
+
+The experimental avatar adapter now supports explicit neutral preview calibration (default 0.3 m) with live finger-segment-length scale compensation. Compiled tests keep both raw targets within 2 mm across 1x/0.5x/1.5x default-avatar size and verify loss invalidation, invalid-target rejection, recalibration and reset. It remains outside the authored scene, with clicks disabled. The ordinary cursor distance multiplier defaults to 1; synthetic-scene mapping is unchanged. Actual avatar-swap delivery and physical gesture/comfort validation remain pending.
