@@ -8,4 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BirdWorld/Scenes/BirdFeasibility.unity
     guid: 40a2628e49db3374788f493f1d471cbb
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: de4c3c6e682ff664e90f004058354d1f,
+      type: 2}
