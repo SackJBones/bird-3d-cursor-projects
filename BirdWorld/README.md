@@ -58,3 +58,6 @@ The avatar calibration fixture now measures both hands at half/normal/1.5x/resto
 
 
 The experimental avatar adapter now supports explicit neutral preview calibration (default 0.3 m) with live finger-segment-length scale compensation. Compiled tests keep both raw targets within 2 mm across 1x/0.5x/1.5x default-avatar size and verify loss invalidation, invalid-target rejection, recalibration and reset. It remains outside the authored scene, with clicks disabled. The ordinary cursor distance multiplier defaults to 1; synthetic-scene mapping is unchanged. Actual avatar-swap delivery and physical gesture/comfort validation remain pending.
+
+
+Controlled avatar-articulation checks now pass: synthetic +/-15-degree local-Z proximal finger rotations moved calibrated raw targets from 0.30 m to about 0.58/0.15 m on both hands, with unchanged segment lengths and recovery to 0.30 m after restoration. The fixture restores runtime rotations/Animator state and saves no scene changes. Both UnityAvatarInputChecks.cs and UnityAvatarPoseFixture.cs are required for current avatar checks. Full measurements are preserved in the lightweight calibration analysis. This does not validate physical hand gestures or add avatar mode to the synthetic scene.
