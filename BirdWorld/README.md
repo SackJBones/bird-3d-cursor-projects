@@ -61,3 +61,10 @@ The experimental avatar adapter now supports explicit neutral preview calibratio
 
 
 Controlled avatar-articulation checks now pass: synthetic +/-15-degree local-Z proximal finger rotations moved calibrated raw targets from 0.30 m to about 0.58/0.15 m on both hands, with unchanged segment lengths and recovery to 0.30 m after restoration. The fixture restores runtime rotations/Animator state and saves no scene changes. Both UnityAvatarInputChecks.cs and UnityAvatarPoseFixture.cs are required for current avatar checks. Full measurements are preserved in the lightweight calibration analysis. This does not validate physical hand gestures or add avatar mode to the synthetic scene.
+
+
+## Experimental avatar preview
+
+Assets/BirdWorld/Scenes/BirdAvatarPreview.unity is a separate diagnostic scene. Both local avatar-based cursors start hidden. Hold a comfortable pose and use CALIBRATE to anchor the raw targets at 0.3 m; RESET clears calibration and hides them again. Hand-status labels identify available bones and fit/range issues. Clicks remain disabled, and preview ranges above 3 m are rejected. This is an avatar-bone approximation, not validated hand tracking or a complete world release.
+
+Restore BirdSphereFit, BirdCursorState, BirdAvatarInput and BirdAvatarControl source/meta pairs from the lightweight integration directory into Assets/BirdGenerated/Runtime before opening/compiling this scene. Its tracked adapter/control program assets preserve those source references; existing synthetic materials are reused. Keep the sources for other authored scenes restored as well. Generator/validator: tests/UnityAvatarSceneChecks.cs in the lightweight repository. Generate refuses existing scene overwrite; Validate reopens and tests compiled Interact handlers and hidden/calibrated/reset states. Run Validate with rendering enabled for Validation/AvatarPreview/preview.png. No physical pointer/controller activation, VRChat client build or upload is implied.
