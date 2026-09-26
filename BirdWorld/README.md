@@ -2,6 +2,32 @@
 
 Open with **Unity 2022.3.22f1**. Created through the official VPM CLI from the World template; Worlds/Base SDK versions are pinned in `Packages/vpm-manifest.json` (3.10.5). This is the beginning of a feasibility world, not a working Bird world.
 
+The latest combined local station is `Assets/BirdWorld/Scenes/BirdMapDemo.unity`.
+It adds a MAP branch beside the color selector and paired Hanoi: separate
+back-surface rotation/coasting and squared-range zoom, with explicit mode,
+Reset and Back actions. Reaching again starts zoom from the current size;
+withdrawing stops it immediately. The fixed gesture sphere never scales with
+the map. The parent controls remain beside the map so they do not obscure it.
+
+Map source checkpoint: light commit `a95020a70084e2441ff6c4b6acf25b8dc2a7c4e6`.
+Restore and validate with the light `tests/Invoke-UnityUdonMapChecks.ps1` runner;
+it copies source/meta pairs and the Hanoi shader into ignored generated folders.
+The saved scene passes 61 compiled-Udon assertions, including a normal-frame
+menu/zoom/clutch/rotate/coast/back/loss sequence and saved label placement, with
+five rendered captures. No runtime C# proxy substitutes for the Udon checks.
+The ordinary Unity map preview separately passes 71 map plus 316 spherical
+assertions and a Windows standalone build/normal-frame player check.
+
+`-BuildWorld` builds a Windows SDK artifact and independently loads its scene
+catalog. Final map artifact: 261008 bytes, SHA256
+`AE3131AF827C7F97C26F5685DEBC545232AE4AC2BFB5CC35D9A31F44501278EE`.
+The SDK still prints its unexplained internal `Result: Failure` line despite
+API completion and the fresh catalog-readable artifact. There was no Android
+map build, VRChat-client load, upload or headset operation. The input remains
+the local desktop demonstration source; physical feel, actual avatar-hand input
+and multiplayer policy remain pending. See light `MAP-CONTROLS.md` and the latest
+checkpoint for exact contracts, timing fixtures and qualifications.
+
 The latest paired puzzle is `Assets/BirdWorld/Scenes/BirdHanoiDemo.unity`: tabletop
 and 25-38 m building sections share local bounded gripping, soft approach guidance,
 legal final placement and cancellation. It includes the existing color/menu station,
