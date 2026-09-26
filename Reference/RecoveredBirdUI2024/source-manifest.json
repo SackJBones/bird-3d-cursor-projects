@@ -1,0 +1,83 @@
+{
+  "captured_utc": "2026-09-26T07:22:02.336080+00:00",
+  "source_root_hint": "MIT Dropbox/Dana Gretton/Unity/bird-3d-cursor-mac/BirdFireballDemo",
+  "notes": [
+    "Read-only scene/prefab reference outside active Unity projects.",
+    "Custom source and project settings are in light repo Reference/RecoveredBirdUI2024.",
+    "Incomplete Unity dependency closure: no vendor SDKs/DOTween/models/materials copied."
+  ],
+  "files": [
+    {
+      "path": "Assets/Scenes/SampleScene.unity",
+      "bytes": 1041424,
+      "sha256": "9ccbb7cbe90f45e354adf513d1e064e5944c047e73813ae91642fbf5acdb6fed",
+      "source_mtime_utc": "2024-07-25T16:47:59+00:00"
+    },
+    {
+      "path": "Assets/Scenes/SampleScene.unity.meta",
+      "bytes": 155,
+      "sha256": "aceab14f038dbd3a1778159772cd9e89d7d8188f9158f06c204a8912438d8c96",
+      "source_mtime_utc": "2022-12-16T22:18:10+00:00"
+    },
+    {
+      "path": "Assets/Prefabs/FireButton.prefab",
+      "bytes": 599221,
+      "sha256": "7e7b0b38e1d73c81f60cf2acae56d3bdeec9e0c17fa30bbdff148b7a2fadaff7",
+      "source_mtime_utc": "2023-07-30T04:50:26+00:00"
+    },
+    {
+      "path": "Assets/Prefabs/FireButton.prefab.meta",
+      "bytes": 154,
+      "sha256": "f48b48145808fe7cb13bdefecec7caa6f18bd7ae9f41ec0b81b7e46a76a4e693",
+      "source_mtime_utc": "2023-07-28T03:50:08+00:00"
+    },
+    {
+      "path": "Assets/Prefabs/POI marker.prefab",
+      "bytes": 7495,
+      "sha256": "4d894aff0d50b1edba0fec131bc61752783fb26c322c5dae99edbb8ae62e7a6a",
+      "source_mtime_utc": "2023-07-30T06:39:57+00:00"
+    },
+    {
+      "path": "Assets/Prefabs/POI marker.prefab.meta",
+      "bytes": 154,
+      "sha256": "7b6e3f0a280ce6e9c0ed4fa11a8859f640d96ec4d435f341275027d8462d26fb",
+      "source_mtime_utc": "2023-07-30T05:35:37+00:00"
+    },
+    {
+      "path": "Assets/Prefabs/POI.prefab",
+      "bytes": 1432,
+      "sha256": "9c280367db69fbfd363618d14bdcd0e32b81e87acb264161be088ea04ad83531",
+      "source_mtime_utc": "2023-07-30T05:52:18+00:00"
+    },
+    {
+      "path": "Assets/Prefabs/POI.prefab.meta",
+      "bytes": 154,
+      "sha256": "ab63aca004819e95d00b8538af99f5cc5a5905c0de730d84179a3160649c2ca1",
+      "source_mtime_utc": "2023-07-30T05:52:18+00:00"
+    },
+    {
+      "path": "Assets/Prefabs/Block Stack.prefab",
+      "bytes": 46125,
+      "sha256": "377cbbc177720c4f3a03214a3201b9a1adc11ef461d6569f7dfcbe4be2c50f0d",
+      "source_mtime_utc": "2022-12-16T22:18:10+00:00"
+    },
+    {
+      "path": "Assets/Prefabs/Block Stack.prefab.meta",
+      "bytes": 154,
+      "sha256": "e0963fb02d4b2e005ca5f01a5d588baadd27c808f3624900fe5271c06bf57cd1",
+      "source_mtime_utc": "2022-12-16T22:18:10+00:00"
+    },
+    {
+      "path": "Assets/Prefabs/ExplosionFlash.prefab",
+      "bytes": 2262,
+      "sha256": "fc9d350691979f15a2f490f055ce77cee952aff18e29dd77053375814a8ff60d",
+      "source_mtime_utc": "2022-12-16T22:18:10+00:00"
+    },
+    {
+      "path": "Assets/Prefabs/ExplosionFlash.prefab.meta",
+      "bytes": 154,
+      "sha256": "4aa649ec8dbdbc1bd69905b0e84ca7ad9a27a9638c3c593f5491aed746ca2c57",
+      "source_mtime_utc": "2022-12-16T22:18:10+00:00"
+    }
+  ]
+}

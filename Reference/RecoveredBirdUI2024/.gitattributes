@@ -1,0 +1,2 @@
+# Preserve historical bytes, including their original whitespace.
+Assets/** -text -whitespace
