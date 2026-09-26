@@ -1,12 +1,37 @@
-# Bird World feasibility project
+# Bird World development project
 
 Open with **Unity 2022.3.22f1**. Created through the official VPM CLI from the World template; Worlds/Base SDK versions are pinned in `Packages/vpm-manifest.json` (3.10.5). This is the beginning of a feasibility world, not a working Bird world.
+
+The current UI station is `Assets/BirdWorld/Scenes/BirdUiDemo.unity`: local nested
+color menus, twelve dodecahedral choices, larger-sphere back-surface flick/coast,
+Back/Close and Reset. Its desktop demonstration input uses look direction,
+mouse-wheel reach and a mouse press. It is not the final world or validated
+avatar-hand input. The standalone Quest v0.9 application is a separate harness.
+
+Restore all source/meta pairs from the light repository's `Integrations/VRChat`
+into ignored `Assets/BirdGenerated/Runtime` before opening scenes. The light
+`tests/Invoke-UnityUdonUiChecks.ps1` does this and validates actual compiled Udon
+in ClientSim. `-BuildWorld` builds a local Windows bundle; `-BuildAndroidWorld`
+performs SDK Android setup and builds a separate Android bundle. No upload is
+part of either command. See light `docs/modernization/UI-UDON.md` for component
+contracts, evidence and remaining work. Historical feasibility checkpoints follow.
+
+UI source checkpoint: light repository commit `cecfa77731af1171187b5475856afd54ce3d70ec`.
+Validation passes 441 compiled-Udon assertions. Windows and Android SDK bundles
+were produced, and Unity independently loaded their expected scene catalogs.
+Both SDK logs also contain an unexplained internal scene-bundle `Result: Failure`
+line; client scene loading and device runtime remain untested. See `UI-UDON.md`
+for artifact hashes and the precise scope of this evidence. Android project
+settings were configured by the installed SDK, including ARM64 and API 25/33.
 
 On a fresh checkout, restore the VPM dependencies through Creator Companion or `vpm resolve project <absolute BirdWorld path>`. The official VPM resolver is included as supplied by the template. SDK directories, Unity caches, logs and builds are not committed. Do not copy legacy Bird MonoBehaviours into a world and assume they execute under Udon.
 
 The scaffold scene is `Assets/BirdWorld/Scenes/BirdFeasibility.unity`: a floor, spawn point, world descriptor, light and orientation landmark. Its generator is maintained in the lightweight repository at `tests/UnityVRChatWorldChecks.cs`. To generate it in a new dedicated SDK project, copy that file into `Assets/BirdGenerated/Editor`, then launch Unity in batch mode with `-executeMethod UnityVRChatWorldChecks.Run`. It refuses to overwrite an existing scene. The copied editor script is ignored here; edit the lightweight source instead.
 
-Next: add a UdonSharp hand-data diagnostic, compile it with the real SDK, and check it in ClientSim before a client/headset test. Missing avatar bones, fingertip estimation, scale and actual tracking quality require explicit handling. No world has been uploaded, no VRChat account login has been performed, and no multiplayer or physical hand validation has passed.
+The initial next step was a UdonSharp hand-data diagnostic; subsequent sections
+record its implementation and ClientSim checks. Missing avatar bones, fingertip
+estimation, scale and actual tracking quality still require explicit handling.
+No world upload, multiplayer or physical world-hand validation is claimed here.
 
 The separately installed **Bird Quest Smoke** APK is a synthetic standalone Unity deployment test, not this VRChat world.
 
