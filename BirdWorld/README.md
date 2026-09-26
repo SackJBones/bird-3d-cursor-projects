@@ -3,6 +3,31 @@
 Open with **Unity 2022.3.22f1**. Created through the official VPM CLI from the World template; Worlds/Base SDK versions are pinned in `Packages/vpm-manifest.json` (3.10.5). This is the beginning of a feasibility world, not a working Bird world.
 
 The latest combined local station is `Assets/BirdWorld/Scenes/BirdMapDemo.unity`.
+Its eleven boxed menu controls now have separately authored five-state artwork:
+hover advances/tilts, press compresses and background parents recede. Hit colliders
+and action routing stay fixed. Color selection and the larger sphere's back-surface
+scrolling retain their separate behavior. Inspector fields configure each state's
+position, rotation, scale, tint and visibility through the local `BirdUiVisual`.
+
+Visual-state source checkpoint: light commit
+`0dcb2e4479791fd71f8b6ce4a887c6aa112d4f45`. Use light
+`tests/Invoke-UnityUdonVisualChecks.ps1 -UnityEditor <Unity.exe> -ProjectPath <BirdWorld>`
+to restore sources/metas/shader and run 35 compiled-Udon visual assertions plus the
+61 map assertions. The optional `-Author` migration is unnecessary for this saved
+scene. Historical comparison preserved all 88 world-space corners of eleven
+colliders, including hidden content. Four visual-state captures, five map captures
+and the ordinary Unity package's 49 checks/Windows player run pass. See light
+`docs/modernization/UI-VISUAL-STATES.md` for lifecycle and authoring contracts.
+
+Adding `-BuildWorld` produced a fresh Windows SDK bundle and readable scene catalog:
+275275 bytes, SHA256
+`EDD6A5CC4919B4BA6742FFC28D5032BAB1D4CB01DBE32F72B00342EBCF0456A7`.
+The SDK still logs its unexplained internal `Result: Failure` despite API completion.
+Catalog loading is not scene instantiation or VRChat-client validation. This cycle
+performed no Android build, upload or headset operation; Quest v0.9 is unchanged.
+Real avatar-hand input, physical feel and multiplayer policy remain pending.
+
+The map interaction checkpoint preceded that artwork update.
 It adds a MAP branch beside the color selector and paired Hanoi: separate
 back-surface rotation/coasting and squared-range zoom, with explicit mode,
 Reset and Back actions. Reaching again starts zoom from the current size;
@@ -19,7 +44,7 @@ The ordinary Unity map preview separately passes 71 map plus 316 spherical
 assertions and a Windows standalone build/normal-frame player check.
 
 `-BuildWorld` builds a Windows SDK artifact and independently loads its scene
-catalog. Final map artifact: 261008 bytes, SHA256
+catalog. Historical artifact before the artwork update: 261008 bytes, SHA256
 `AE3131AF827C7F97C26F5685DEBC545232AE4AC2BFB5CC35D9A31F44501278EE`.
 The SDK still prints its unexplained internal `Result: Failure` line despite
 API completion and the fresh catalog-readable artifact. There was no Android
