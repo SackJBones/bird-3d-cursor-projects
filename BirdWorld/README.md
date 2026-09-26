@@ -2,7 +2,26 @@
 
 Open with **Unity 2022.3.22f1**. Created through the official VPM CLI from the World template; Worlds/Base SDK versions are pinned in `Packages/vpm-manifest.json` (3.10.5). This is the beginning of a feasibility world, not a working Bird world.
 
-The current UI station is `Assets/BirdWorld/Scenes/BirdUiDemo.unity`: local nested
+The latest paired puzzle is `Assets/BirdWorld/Scenes/BirdHanoiDemo.unity`: tabletop
+and 25-38 m building sections share local bounded gripping, soft approach guidance,
+legal final placement and cancellation. It includes the existing color/menu station,
+per-sample menu/world arbitration and a separate player viewing-area gate. Desktop
+controls are look, wheel reach, hold/release mouse, and X to cancel. It is local-only;
+actual VRChat hand input, client/headset use and multiplayer remain unvalidated.
+
+Restore via the light `tests/Invoke-UnityUdonHanoiChecks.ps1`, which copies all
+integration sources/metas and the sample surface shader into ignored generated
+folders. It runs the compiled Hanoi and UI suites and accepts the same optional
+Windows/Android build flags as the UI runner below. See light
+`docs/modernization/OBJECT-MANIPULATION-UDON.md` for authoring, evidence and limits.
+Hanoi source checkpoint: light commit `40464c074b27d2e1ec698d191ba7c95aa12fa44b`.
+Validation passes 877 Hanoi and 441 existing UI assertions through ClientSim,
+including normal-frame scenarios and rendered captures. Windows and Android SDK
+files both pass independent scene-catalog loading; the same unexplained internal
+build-log `Result: Failure` qualification still applies. Artifact hashes and
+precise evidence are recorded in the light documentation. The Quest app is unchanged.
+
+The focused UI station is `Assets/BirdWorld/Scenes/BirdUiDemo.unity`: local nested
 color menus, twelve dodecahedral choices, larger-sphere back-surface flick/coast,
 Back/Close and Reset. Its desktop demonstration input uses look direction,
 mouse-wheel reach and a mouse press. It is not the final world or validated
