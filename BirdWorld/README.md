@@ -212,3 +212,12 @@ The lightweight Quest v0.6 harness now defaults to plain Inflate and has a simpl
 ## Closed-hand click interaction validation (2026-09-26)
 
 BirdCursorState program metadata is compiled against lightweight source checkpoint 159c0f6. The optional hand-limit cursor now permits index-lever clicking through the closed-hand region, including singular folded fits; ordinary click depth, range and filtering remain unchanged. Actual compiled Udon passes 114 baseline cursor checks plus 5549 shared hand-limit assertions, including mirrored/rigid/three-scale closed click hysteresis and cancellation. Restore the matching source/meta pairs before recompilation. The standalone Quest v0.7 presentation/high-overlook changes live in the lightweight harness and ignored Validation project; no authored VRChat-world scene or headset world validation is implied.
+
+
+## Current first-client milestone: BirdTrackingLab
+
+Open Assets/BirdWorld/Scenes/BirdTrackingLab.unity for a simple laboratory with a meter grid, reference objects, work bench, switchable SDK mirror and local avatar-bone/TrackingData diagnostics. It uses native VRChat Interact controls and does not require Bird to operate. This is the current Android Build and Test target, with the same authored scene intended for later private SDK upload.
+
+From the light repository, run tests/Invoke-UnityTrackingLab.ps1 with UnityEditor and ProjectPath pointing here; add -Check -Launch to validate and transfer/launch through the standard SDK. Sources and stable metadata are restored to the ignored BirdGenerated folder. Do not use -Generate on the existing scene. Lab runtime source stays in the light Integrations/VRChat folder; authored scene/materials/programs are tracked here. Generated bundles, captures and device logs stay under ignored Validation/TrackingLab. See the light docs/modernization/TRACKING-LAB.md for details and current validation limits. Android SDK defaults changed the current quality tier and audio voice counts during setup; no custom SDK modifications are required.
+
+Lab v0.2 uses per-frame PostLateUpdate markers after avatar IK, with only text at 5 Hz. The saved-scene compiled-Udon test passes all 34 marker positions across 30 consecutive frames plus control lifecycle checks; the Android bundle is verified running in Quest VRChat. Bone markers remain avatar origins, not raw physical finger joints. The ON/OFF control labels now fit. See the lightweight TRACKING-LAB.md for current hash, device evidence and the remaining SDK-log/physical-feel qualifications.
