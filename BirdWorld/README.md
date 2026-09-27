@@ -1,6 +1,34 @@
 # Bird World development project
 
-Open with **Unity 2022.3.22f1**. Created through the official VPM CLI from the World template; Worlds/Base SDK versions are pinned in `Packages/vpm-manifest.json` (3.10.5). This is the beginning of a feasibility world, not a working Bird world.
+Open with **Unity 2022.3.22f1**. Created through the official VPM CLI from the World template; Worlds/Base SDK versions are pinned in `Packages/vpm-manifest.json` (3.10.5). The tracking lab is the current experimental Bird world; the remaining scenes preserve separate interaction demonstrations.
+
+The current VRChat-client test scene is
+`Assets/BirdWorld/Scenes/BirdTrackingLab.unity`. Lab 06 contains calibrated
+experimental avatar Bird, independent fitted-sphere/normal/point diagnostics,
+and an optional local reach/highlight/spin station that starts off. Avatar
+clicks remain disabled. Deployed revisions and physical evidence are tracked
+in the light repository's modernization CHECKPOINT; a local build does not
+mean the headset has been updated.
+
+After restoring pinned VPM dependencies, run this from the light repository:
+
+```powershell
+./tests/Invoke-UnityTrackingLab.ps1 `
+  -UnityEditor 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Unity.exe' `
+  -ProjectPath '../bird-3d-cursor-projects/BirdWorld' `
+  -Platform Both
+```
+
+This restores the maintained scripts/metas/shaders, builds the saved lab using
+the unmodified SDK for Windows and Android, applies the usual upload-size gates,
+and audits the processed scene and cross-platform bindings. It does not launch
+or upload. Add `-Check -CheckBird` for compiled-Udon and rendering checks. The
+light `docs/modernization/TRACKING-LAB.md` describes single-platform BuildAndTest,
+build records and normal private publishing under one blueprint ID. Keep the
+runtime/input code in the light repository and authored world assets here.
+
+The following sections describe the broader demonstration scenes and historical
+checkpoints; their desktop input is separate from the current avatar lab.
 
 The latest combined local station is `Assets/BirdWorld/Scenes/BirdPoseDemo.unity`.
 It adds tabletop and distant 69 m tower sections with bounded held rotation/size,
