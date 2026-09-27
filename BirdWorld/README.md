@@ -3,15 +3,20 @@
 Open with **Unity 2022.3.22f1**. Created through the official VPM CLI from the World template; Worlds/Base SDK versions are pinned in `Packages/vpm-manifest.json` (3.10.5). The tracking lab is the current experimental Bird world; the remaining scenes preserve separate interaction demonstrations.
 
 The current VRChat-client test scene is
-`Assets/BirdWorld/Scenes/BirdTrackingLab.unity`. Lab 07 contains calibrated
-experimental avatar Bird, independent fitted-sphere/normal/point diagnostics,
-an optional local reach/highlight/spin station that starts off, and a native
-RAW / original FILTERED / ADAPTIVE comparison. RAW remains the default. The
-adaptive policy is experimental; see the light repository's
-`docs/modernization/RANGE-ADAPTIVE-FILTER.md` for tests and limitations. Avatar
+`Assets/BirdWorld/Scenes/BirdTrackingLab.unity`. Lab 13 starts experimental avatar
+Bird automatically, with optional REFINE/AUTO fingertip correction. It preserves
+independent fitted-sphere/normal/point diagnostics and an optional local
+reach/highlight/spin station that starts off. ADAPTIVE smoothing and PALM origin
+are saved defaults; their comparison buttons are removed. Direction follows the
+actual fitted sphere center at all ranges except behind-palm/singular cases.
+See the light repository's `docs/modernization/AUTOMATIC-AVATAR-SETUP.md`
+and `PALM-DIRECTION.md` for assumptions and checks. Avatar
 clicks remain disabled. Deployed revisions and physical evidence are tracked
 in the light repository's modernization CHECKPOINT; a local build does not
 mean the headset has been updated.
+
+Lab 13 is build-only. Quest retains Lab 12; its most recent sphere-directed feel
+and the new automatic fingertip estimates still need physical comparison.
 
 After restoring pinned VPM dependencies, run this from the light repository:
 
@@ -30,7 +35,7 @@ light `docs/modernization/TRACKING-LAB.md` describes single-platform BuildAndTes
 build records and normal private publishing under one blueprint ID. Keep the
 runtime/input code in the light repository and authored world assets here.
 
-Lab 07 source checkpoint: light commit
+Historical Lab 07 source checkpoint: light commit
 `c26b0c9aa7c685ba6f3200b0502bf40b6f5d149f`. Both editor targets pass 47074
 compiled-Udon assertions over 473 normal frames plus saved-scene checks. Normal
 SDK exports and processed-scene parity checks pass: Windows 285142 bytes,
