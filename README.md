@@ -2,10 +2,12 @@
 
 > Current modernization branch: `BirdWorld/Assets/BirdWorld/Scenes/BirdTrackingLab.unity`
 > is a Unity 2022.3.22f1 VRChat lab with calibrated avatar-finger Bird input,
-> separate estimated-tip/point presentation and a point-through target. Lab 03
-> passed compiled-Udon checks and normal Android SDK validation, deployed through
-> SDK BuildAndTest, and was seen running on Quest with left-hand calibration
-> accepted. Physical feel/click fidelity and online publishing remain separate.
+> separate estimated-tip/point presentation and a point-through target. Lab 04
+> adds native RAW/FILTERED comparison and retains calibration across missing
+> samples. Compiled-Udon checks and normal Android SDK validation pass; the
+> transferred Quest bundle hash matches. Lab 03 was seen running with calibration
+> accepted; Lab 04 physical view/feel, click fidelity and online publishing remain
+> unconfirmed.
 > Maintained sources, restore/build helpers and the detailed checkpoint are in
 > the sibling `bird-3d-cursor` repository under `Integrations/VRChat`, `tests`
 > and `docs/modernization`. The historical descriptions below concern the older
