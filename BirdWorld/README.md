@@ -37,9 +37,29 @@ one local grip; the distant pose workspace joins the viewing-area protection gat
 The existing map, color selector, five-state menus and paired Hanoi are retained.
 The smaller focused scenes remain available. This is desktop diagnostic input:
 look/wheel/hold moves, Q/E turns, minus/plus resizes, R restores the held pose and
-X cancels. Actual Bird hand-gesture pose controls remain future integration work.
+X cancels. An optional `BirdObjectTwoHandPose` is now bound to the same grip and
+both pointers. A fresh second-hand press joins the held object; world-space hand
+separation turns/resizes it, and release freezes the displayed pose. The desktop
+producer still supplies only one pointer. Live avatar clicks remain disabled in
+the tracking lab pending physical fidelity checks.
 
-Pose source checkpoint: light commit `5865b872974ee071ee55ee2e9f64c4af37656685`.
+Reproduce the Udon gesture with light
+`tests/Invoke-UnityUdonTwoHandChecks.ps1 -UnityEditor <Unity.exe> -ProjectPath <BirdWorld> -Platform Both -Regressions -BuildWorld`.
+It uses compiled Udon and normal LateUpdate/PostLateUpdate sequences for tabletop
+and distant exact-pose docking, plus ownership/loss/lifecycle and bounds checks.
+The phase is an explicit setting shared with the router and grip. Ordinary desktop
+defaults are unchanged. See `docs/modernization/TWO-HAND-POSE.md` and the latest
+checkpoint for results and Windows/Android build evidence. This does not replace
+Lab 05 on the Quest or establish physical gesture feel or multiplayer authority.
+
+Gesture source checkpoint: light commit `5c74f089ddbe980aca99fedf7bd23338f2a0bc83`.
+Both Windows and Android editor targets pass 8914 gesture, 13332 pose, 877 Hanoi
+and 62 map assertions. Normal SDK builds produce 335772-byte Windows and
+297126-byte Android bundles; independent catalog reads pass. Full hashes and
+qualifications are in the maintained checkpoint. The previous command-only
+artifact details below are historical.
+
+Earlier pose-command source checkpoint: light commit `5865b872974ee071ee55ee2e9f64c4af37656685`.
 Restore source/metas/shader and validate with light
 `tests/Invoke-UnityUdonPoseChecks.ps1 -UnityEditor <Unity.exe> -ProjectPath <BirdWorld> -Regressions -BuildWorld`.
 The saved scene passes 13332 compiled-Udon pose assertions, four captures and
@@ -50,7 +70,7 @@ Both runtimes compose authored local quaternions to avoid mirrored/nonuniform
 parent-world rotation ambiguities. See light `docs/modernization/OBJECT-POSE.md`
 for exact permissions, request/release gates, narrow-return fallback and limits.
 
-The final Windows SDK artifact is 305832 bytes, SHA256
+That earlier pose-command checkpoint produced a Windows artifact of 305832 bytes, SHA256
 `6F7A1674D3D46E7AF9D78A9F4E8AB0266CAB6C56D0831DD9084EE4BD658A7FB0`.
 Its scene catalog loads independently in Unity. The SDK still prints an unexplained
 internal `Result: Failure` despite API completion; catalog loading does not prove
