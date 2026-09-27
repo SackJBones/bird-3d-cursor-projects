@@ -2,9 +2,9 @@
 
 Dana supplied these files in the workspace-root `world design` directory.
 This snapshot preserves their exact bytes outside Unity Assets; original files
-remain unchanged. The conversation and both images were reviewed.
+remain unchanged. The conversation and all four images were reviewed.
 
-The two images are Dana's preferred architectural references. Use them for
+The four images are Dana's preferred architectural references. Use them for
 structure, flow and massing, with freedom to adapt them. Editability for
 iteration takes precedence over literal image matching. The generated floor-plan
 image was deliberately omitted because its result was not what Dana wanted;
@@ -17,8 +17,16 @@ tracking lab or an instruction to begin detailed architecture immediately.
 The maintained interpretation and proposed editable workflow are in the light
 repository's `docs/modernization/WORLD-DESIGN.md`.
 
+Dana subsequently confirmed the two additional references (circular opening/
+steps and sculptures) and explicitly requested independent critic-agent review
+and iteration across future world-building cycles, with numerical ratings for
+aesthetics, navigability, hangout suitability and overall VRChat world quality.
+The maintained brief records that workflow and its evidence requirements.
+
 | Original filename | Bytes | SHA256 |
 | --- | ---: | --- |
 | bird world design conversation.txt | 11195 | `FB5717CF19A6D33BBAE661109F8B8002B7E0D9BD18A0A966C665E5861ED7E4D4` |
 | complex lowpoly.png | 1679795 | `BD5002E4BF7FEA8C87D8F072A57595436EC521BF6481EB8ADF2A506DD42A5D29` |
 | spawn point cavern lowpoly.png | 1361966 | `C38641C282C0D2853B6D05A366E12661B0ADD9AE48F2E69D2EB6BAE6410D9F24` |
+| circular opening and steps reference lowpoly.png | 1427781 | `9625BB505923D14C778A0B95A3277B9BDEB25A290C2B1228F2E6C0213611EFD7` |
+| sculptures lowpoly.png | 1496472 | `437B5B58B0EE352C9B73969550F0B8EA6964A1AB760F2B10431975B8FAF98E8C` |
