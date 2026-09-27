@@ -1,0 +1,3 @@
+# Preserve the supplied reference bytes, including original text line endings.
+*.txt -text
+*.png -text
