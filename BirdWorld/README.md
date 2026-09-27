@@ -2,7 +2,35 @@
 
 Open with **Unity 2022.3.22f1**. Created through the official VPM CLI from the World template; Worlds/Base SDK versions are pinned in `Packages/vpm-manifest.json` (3.10.5). This is the beginning of a feasibility world, not a working Bird world.
 
-The latest combined local station is `Assets/BirdWorld/Scenes/BirdMapDemo.unity`.
+The latest combined local station is `Assets/BirdWorld/Scenes/BirdPoseDemo.unity`.
+It adds tabletop and distant 69 m tower sections with bounded held rotation/size,
+90-degree/1.25x target outlines and full-pose cancellation. All eight objects share
+one local grip; the distant pose workspace joins the viewing-area protection gate.
+The existing map, color selector, five-state menus and paired Hanoi are retained.
+The smaller focused scenes remain available. This is desktop diagnostic input:
+look/wheel/hold moves, Q/E turns, minus/plus resizes, R restores the held pose and
+X cancels. Actual Bird hand-gesture pose controls remain future integration work.
+
+Pose source checkpoint: light commit `5865b872974ee071ee55ee2e9f64c4af37656685`.
+Restore source/metas/shader and validate with light
+`tests/Invoke-UnityUdonPoseChecks.ps1 -UnityEditor <Unity.exe> -ProjectPath <BirdWorld> -Regressions -BuildWorld`.
+The saved scene passes 13332 compiled-Udon pose assertions, four captures and
+normal-frame commands/docking/loss return. The existing 877 Hanoi and 61 map
+assertions also pass in this combined scene. Most pose assertions check individual
+box corners. Ordinary Unity passes 6015 pose assertions and its Windows player.
+Both runtimes compose authored local quaternions to avoid mirrored/nonuniform
+parent-world rotation ambiguities. See light `docs/modernization/OBJECT-POSE.md`
+for exact permissions, request/release gates, narrow-return fallback and limits.
+
+The final Windows SDK artifact is 305832 bytes, SHA256
+`6F7A1674D3D46E7AF9D78A9F4E8AB0266CAB6C56D0831DD9084EE4BD658A7FB0`.
+Its scene catalog loads independently in Unity. The SDK still prints an unexplained
+internal `Result: Failure` despite API completion; catalog loading does not prove
+scene instantiation or VRChat-client execution. No Android build, upload, account
+or headset operation occurred. Quest v0.9 is unchanged. Live hands, multiplayer,
+physics/lift and dynamic occupancy remain separate work.
+
+The preceding combined station is `Assets/BirdWorld/Scenes/BirdMapDemo.unity`.
 Its eleven boxed menu controls now have separately authored five-state artwork:
 hover advances/tilts, press compresses and background parents recede. Hit colliders
 and action routing stay fixed. Color selection and the larger sphere's back-surface
