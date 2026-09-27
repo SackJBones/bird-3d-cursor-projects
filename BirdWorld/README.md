@@ -3,9 +3,12 @@
 Open with **Unity 2022.3.22f1**. Created through the official VPM CLI from the World template; Worlds/Base SDK versions are pinned in `Packages/vpm-manifest.json` (3.10.5). The tracking lab is the current experimental Bird world; the remaining scenes preserve separate interaction demonstrations.
 
 The current VRChat-client test scene is
-`Assets/BirdWorld/Scenes/BirdTrackingLab.unity`. Lab 06 contains calibrated
+`Assets/BirdWorld/Scenes/BirdTrackingLab.unity`. Lab 07 contains calibrated
 experimental avatar Bird, independent fitted-sphere/normal/point diagnostics,
-and an optional local reach/highlight/spin station that starts off. Avatar
+an optional local reach/highlight/spin station that starts off, and a native
+RAW / original FILTERED / ADAPTIVE comparison. RAW remains the default. The
+adaptive policy is experimental; see the light repository's
+`docs/modernization/RANGE-ADAPTIVE-FILTER.md` for tests and limitations. Avatar
 clicks remain disabled. Deployed revisions and physical evidence are tracked
 in the light repository's modernization CHECKPOINT; a local build does not
 mean the headset has been updated.
@@ -26,6 +29,16 @@ or upload. Add `-Check -CheckBird` for compiled-Udon and rendering checks. The
 light `docs/modernization/TRACKING-LAB.md` describes single-platform BuildAndTest,
 build records and normal private publishing under one blueprint ID. Keep the
 runtime/input code in the light repository and authored world assets here.
+
+Lab 07 source checkpoint: light commit
+`c26b0c9aa7c685ba6f3200b0502bf40b6f5d149f`. Both editor targets pass 47074
+compiled-Udon assertions over 473 normal frames plus saved-scene checks. Normal
+SDK exports and processed-scene parity checks pass: Windows 285142 bytes,
+Android 251707 bytes, each with 43 compiled Udon behaviours. Final export logs
+retain the existing internal Unity bundle failure line despite SDK completion
+and readable catalogs; the light CHECKPOINT records this qualification and
+artifact hashes. No Lab 07 device/client launch or upload occurred. Lab 05
+remains deployed for physical sphere/normal/tip inspection.
 
 The following sections describe the broader demonstration scenes and historical
 checkpoints; their desktop input is separate from the current avatar lab.

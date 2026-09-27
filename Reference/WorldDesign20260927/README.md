@@ -23,6 +23,12 @@ and iteration across future world-building cycles, with numerical ratings for
 aesthetics, navigability, hangout suitability and overall VRChat world quality.
 The maintained brief records that workflow and its evidence requirements.
 
+After this snapshot, Dana renamed the circular-opening source to
+`circular opening and steps reference lowpoly - the view doesnt have to be this open it can show a bit more architecture but i wanted to include a reference for the island.png`.
+Its bytes and SHA256 are unchanged; the snapshot retains the shorter initial
+filename. The clarification is design guidance: the arrival view may be more
+enclosed by architecture, and this image also references the distant island.
+
 | Original filename | Bytes | SHA256 |
 | --- | ---: | --- |
 | bird world design conversation.txt | 11195 | `FB5717CF19A6D33BBAE661109F8B8002B7E0D9BD18A0A966C665E5861ED7E4D4` |
