@@ -1,5 +1,17 @@
 # bird-3d-cursor
 
+> Current modernization branch: `BirdWorld/Assets/BirdWorld/Scenes/BirdTrackingLab.unity`
+> is a Unity 2022.3.22f1 VRChat lab with calibrated avatar-finger Bird input,
+> separate estimated-tip/point presentation and a point-through target. Lab 03
+> passed compiled-Udon checks and normal Android SDK validation, deployed through
+> SDK BuildAndTest, and was seen running on Quest with left-hand calibration
+> accepted. Physical feel/click fidelity and online publishing remain separate.
+> Maintained sources, restore/build helpers and the detailed checkpoint are in
+> the sibling `bird-3d-cursor` repository under `Integrations/VRChat`, `tests`
+> and `docs/modernization`. The historical descriptions below concern the older
+> Oculus demos. Standalone Bird Live Hands remains v0.10.
+
+
 The Bird is a tool for controlling a point in 3D space using one hand, designed for use in virtual reality. It's like pointing at things with a ray cast, but you can control how far away they are.
 
 *This repository contains two full Unity projects, each with a demo scene, for use with version 2020.3.33f1. The two core scripts, Bird.cs and BirdInteractable.cs, may be downloaded individually and used independently in any Unity project. They are also in this repository's top-level directory for convenience. Also because repo big. :)*
