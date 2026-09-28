@@ -15,6 +15,15 @@
 > and `docs/modernization`. The historical descriptions below concern the older
 > Oculus demos. Standalone Bird Live Hands remains v0.10.
 
+The separate `BirdWorld/Assets/BirdWorld/Scenes/BirdCoastalWorld.unity` scene is
+an editable architectural blockout: six ordinary prefab regions, saved meshes
+and materials, circular arrival, social rooms, supported terraces and coastal
+landscape. It currently contains experience anchors rather than connected Bird
+or demo interactions. See the light repository's `docs/modernization/COASTAL-WORLD.md`
+for editing, route checks and normal SDK export instructions, and
+`COASTAL-WORLD-REVIEW.md` for the independent critic's remaining design findings.
+Current reference renders are in `Reference/WorldBuildingReviews/20260928-R04`.
+
 
 The Bird is a tool for controlling a point in 3D space using one hand, designed for use in virtual reality. It's like pointing at things with a ray cast, but you can control how far away they are.
 
