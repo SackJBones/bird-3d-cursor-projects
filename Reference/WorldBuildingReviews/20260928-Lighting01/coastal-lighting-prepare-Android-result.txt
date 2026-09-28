@@ -1,0 +1,1 @@
+PASS: Prepared ordinary baked daylight: 181 receivers, 85 UV2 meshes, 219 probes. No geometry or Bird changes. Bake required.

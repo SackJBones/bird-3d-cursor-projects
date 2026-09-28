@@ -1,0 +1,1 @@
+PASS: Set 2 cm bake ray offset on 6 curved shells only; floor and stair settings unchanged. Rebake required.

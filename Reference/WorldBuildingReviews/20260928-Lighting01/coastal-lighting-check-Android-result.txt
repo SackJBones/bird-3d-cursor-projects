@@ -1,0 +1,1 @@
+PASS: Saved baked lighting executes under normal Android quality, bounded maps/probes, 181 receivers, eight actual renders. Review and physical acceptance remain separate.

@@ -1,0 +1,26 @@
+{
+  "scope": "Three one-second VrApi samples beside the actual rendered arrival capture, stationary headset, Bird not acquired. Not active or multiplayer performance acceptance.",
+  "samples": [
+    {
+      "fps": "72/72",
+      "tear": "0",
+      "stale": "0",
+      "app_ms": "3.20",
+      "cpu_and_gpu_ms": "7.06"
+    },
+    {
+      "fps": "73/72",
+      "tear": "0",
+      "stale": "0",
+      "app_ms": "3.35",
+      "cpu_and_gpu_ms": "6.55"
+    },
+    {
+      "fps": "72/72",
+      "tear": "0",
+      "stale": "0",
+      "app_ms": "3.25",
+      "cpu_and_gpu_ms": "6.91"
+    }
+  ]
+}

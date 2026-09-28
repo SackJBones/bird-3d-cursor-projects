@@ -1,0 +1,145 @@
+There are 140 objects in the Scene with overlapping UV's. Please see the details list below or use the 'UV Overlap' visualisation mode in the Scene View or Lightmaps in Lighting Settings for more information.
+
+- Connected stair treads: 1528 texels
+- Connected stair treads: 1359 texels
+- Connected stair treads: 1293 texels
+- Connected stair treads: 1282 texels
+- Connected stair treads: 1065 texels
+- Connected stair treads: 776 texels
+- Closed conversation pit steps: 367 texels
+- Folded ribbon sculpture: 347 texels
+- Upper edge: 233 texels
+- Wing curved passage -1: 180 texels
+- Wing curved passage 1: 180 texels
+- Folded ribbon sculpture: 175 texels
+- Lookout edge: 173 texels
+- Lookout stair outer rail: 128 texels
+- Conversation bench: 125 texels
+- Bird gesture study: 123 texels
+- Conversation back: 118 texels
+- Lookout stair void side B: 117 texels
+- Cliff stair upper outer rail: 114 texels
+- Conversation floor: 113 texels
+- Cliff stair upper inner rail: 113 texels
+- Cliff stair lower inner rail: 108 texels
+- Cliff stair lower outer rail: 108 texels
+- Lookout stair inner rail: 106 texels
+- Discovery stair inner rail: 104 texels
+- Discovery stair outer rail: 100 texels
+- Water stair outer rail: 100 texels
+- Room threshold: 100 texels
+- Room vault: 99 texels
+- Lookout stair void side A: 98 texels
+- Sculpture timber backdrop: 96 texels
+- Upper stair void left: 93 texels
+- Upper stair void right: 93 texels
+- Water stair inner rail: 85 texels
+- Sculpture plinth: 84 texels
+- Upper stair void end: 83 texels
+- Sculpture timber backdrop: 82 texels
+- Coastal leaves: 81 texels
+- Threshold steps outer rail: 81 texels
+- Threshold steps inner rail: 80 texels
+- Coastal leaves: 75 texels
+- Coastal leaves: 75 texels
+- Coastal leaves: 75 texels
+- Sofa base -1: 67 texels
+- Conversation cushion: 66 texels
+- Low table: 64 texels
+- Sofa back 1: 64 texels
+- Low conversation table: 64 texels
+- Low table: 64 texels
+- Sofa back -1: 64 texels
+- Sofa back 1: 64 texels
+- Low table: 64 texels
+- Sofa back 1: 64 texels
+- Sofa base -1: 57 texels
+- Sofa base 1: 57 texels
+- Sofa base 1: 57 texels
+- Sofa base 1: 57 texels
+- Sofa base -1: 57 texels
+- Sofa base 1: 57 texels
+- Sofa base -1: 57 texels
+- Small study plinth: 56 texels
+- Warm back inset: 56 texels
+- Small study plinth: 56 texels
+- Sculpture plinth: 56 texels
+- Onboarding plinth: 54 texels
+- Cliff landing: 54 texels
+- Sofa cushion -1: 54 texels
+- Sofa back -1: 53 texels
+- Room side -1: 52 texels
+- Room side -1: 52 texels
+- Sofa cushion 1: 49 texels
+- Sofa cushion 1: 49 texels
+- Coast parapet: 49 texels
+- Arrival ridge shoulder: 48 texels
+- Sofa cushion -1: 47 texels
+- Sofa cushion -1: 47 texels
+- Room vault: 47 texels
+- Sofa cushion 1: 47 texels
+- Room vault: 47 texels
+- Sofa cushion 1: 47 texels
+- Room vault: 47 texels
+- Sofa cushion -1: 47 texels
+- Lower front edge: 46 texels
+- Low table: 46 texels
+- Second folded study: 46 texels
+- Sofa back -1: 46 texels
+- Sofa back -1: 46 texels
+- Second folded study: 46 texels
+- Lounge threshold: 44 texels
+- Sofa back 1: 44 texels
+- White planter: 42 texels
+- White planter: 42 texels
+- White planter: 42 texels
+- White planter: 42 texels
+- Lookout branching support: 38 texels
+- Room threshold: 32 texels
+- Room threshold: 32 texels
+- Sea edge: 30 texels
+- Front parapet center: 30 texels
+- Tide approach sea edge: 28 texels
+- Bounded distant cliff island: 28 texels
+- Pool inner edge: 27 texels
+- Pool outer edge: 27 texels
+- Timber rhythm 5: 26 texels
+- Timber rhythm 1: 26 texels
+- Timber rhythm 6: 26 texels
+- Timber rhythm 0: 26 texels
+- Timber rhythm 4: 26 texels
+- Timber rhythm 2: 26 texels
+- Timber rhythm 8: 26 texels
+- Timber rhythm 8: 26 texels
+- Timber rhythm 2: 26 texels
+- Timber rhythm 0: 26 texels
+- Timber rhythm 7: 26 texels
+- Timber rhythm 4: 26 texels
+- Timber rhythm 6: 26 texels
+- Distant shoreline headland: 25 texels
+- Pendant cord: 24 texels
+- Pendant cord: 24 texels
+- Pendant cord: 24 texels
+- Tide approach cliff edge: 24 texels
+- Timber rhythm 3: 23 texels
+- Timber rhythm 7: 23 texels
+- Timber rhythm 5: 23 texels
+- Timber rhythm 3: 23 texels
+- Timber rhythm 1: 23 texels
+- Front parapet right: 21 texels
+- Pendant cord: 20 texels
+- Side wing opening -1: 18 texels
+- Side wing opening 1: 15 texels
+- Fish study 8: 8 texels
+- Fish study 10: 8 texels
+- Fish study 2: 8 texels
+- Fish study 1: 6 texels
+- Fish study 14: 6 texels
+- Fish study 13: 6 texels
+- Fish study 11: 6 texels
+- Fish study 7: 6 texels
+- Fish study 5: 6 texels
+- Fish study 4: 3 texels
+
+Please see this webpage for more information about objects with overlapping UVs:
+https://docs.unity3d.com/Manual/ProgressiveLightmapper-UVOverlap.html

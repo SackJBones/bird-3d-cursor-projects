@@ -1,0 +1,1 @@
+Lightmaps=2; texels=1310720; receivers=181; probes=219; runtime lights=0; quality=VRC High. No physical/performance acceptance.

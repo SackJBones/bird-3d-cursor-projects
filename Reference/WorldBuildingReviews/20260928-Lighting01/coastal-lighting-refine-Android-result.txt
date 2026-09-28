@@ -1,0 +1,1 @@
+PASS: Refined ordinary saved lights and UV chart spacing; 6 texels/m, no added AO, exact geometry retained. Rebake required.

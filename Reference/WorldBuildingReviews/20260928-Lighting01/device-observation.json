@@ -1,0 +1,115 @@
+{
+  "observations": [
+    {
+      "utc": "2026-09-28T18:29:03.580529+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "74",
+        "temperature": "390"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "visual_observation": "Previous Beacons02 world visibly rendering; flat floor and broad surface lighting.",
+      "private_capture_sha256": "3c45a42236b21cce8d97f1552f209d3bd1fee14c4c6f6149476713f0e0aed64b"
+    },
+    {
+      "utc": "2026-09-28T19:14:43.683693+00:00",
+      "capture_only": false,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "74",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "device_world": "BirdCoastalWorld_Lighting01.vrcw",
+      "bundle_sha256": "460c4c06c05e489d910b4a4935da8c89049e2cc90224b98334cbbb4e32154f22",
+      "device_sha256": "460c4c06c05e489d910b4a4935da8c89049e2cc90224b98334cbbb4e32154f22",
+      "transfer_verified": true,
+      "visual_observation": "VRChat Connecting screen; transfer/launch succeeded, world not yet visually accepted.",
+      "private_capture_sha256": "fafacfe6ae70bad838fc42f7c78986aff5200f461a1de51b96547c4f6fad8797"
+    },
+    {
+      "utc": "2026-09-28T19:15:49.770262+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "74",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "visual_observation": "Still Connecting; no world rendering acceptance.",
+      "private_capture_sha256": "b30fda685555b84e1b36a0aad5b5d5683f780d1850c8105355337c6052f30d84"
+    },
+    {
+      "utc": "2026-09-28T19:16:47.043910+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "74",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "visual_observation": "Still Connecting after normal warm am start with same SDK extras.",
+      "private_capture_sha256": "ae261923b3ef7e36327cf92b19037fea3b843dc55c8a91072e902facd616b4ae"
+    },
+    {
+      "utc": "2026-09-28T19:17:56.409730+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "74",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "visual_observation": "Lighting01 arrival visibly rendering in both eyes. Curved support/canopy shading, pedestal, stairs and practice board visible. Idle fallback/error avatar hands present, also visible before this pass; Bird not acquired.",
+      "private_capture_sha256": "67debb9444dd97add00986d340e398b1dbac188c312970724212aa69108742ee"
+    }
+  ],
+  "startup": "Cold launch lingered on Connecting; normal warm start repeated with identical localWorldPath/watchWorlds extras. Client log records waiting-for-master timeout before world eventually rendered. No authentication, account, boundary or client changes.",
+  "limits": "Unattended loading/rendering only. No physical finger gestures, acquired Bird, active performance or multiplayer acceptance. Zero matched Udon lines is not a clean-log guarantee. Existing fallback/error avatar limits physical-input claims. Raw logs/screens stay private."
+}

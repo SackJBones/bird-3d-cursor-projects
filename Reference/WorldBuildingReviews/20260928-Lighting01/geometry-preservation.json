@@ -1,0 +1,10 @@
+{
+  "baseline": "8d918b01b2bde63dbb7b8ed6c7d035f64a46d0d4",
+  "uv2_meshes": 85,
+  "positions_and_normals_byte_identical": true,
+  "triangle_indices_identical": true,
+  "bounds_identical": true,
+  "original_scene_transforms_preserved": 8,
+  "all_original_prefabs_materials_and_colliders_unchanged": true,
+  "note": "Final refined UV2 and shell-offset candidate. Prior welding attempts were restored."
+}
