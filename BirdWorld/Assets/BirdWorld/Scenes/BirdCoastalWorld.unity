@@ -154,6 +154,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &398201578 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6543663821770811021, guid: ebc81662d5d36d247bcb36174ca96c2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 841923648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &398201579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8195485974808436644, guid: ebc81662d5d36d247bcb36174ca96c2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 841923648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &398201580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7473263917216562557, guid: ebc81662d5d36d247bcb36174ca96c2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 841923648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &398201581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2202593786869013463, guid: ebc81662d5d36d247bcb36174ca96c2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 841923648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &398201582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4225587501343708193, guid: ebc81662d5d36d247bcb36174ca96c2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 841923648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &398201583 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8205842580828347736, guid: ebc81662d5d36d247bcb36174ca96c2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 841923648}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398201582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1658641376, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &715635072
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,6 +298,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5615323460986835894}
     m_Modifications:
+    - target: {fileID: 156464584019335101, guid: ebc81662d5d36d247bcb36174ca96c2b,
+        type: 3}
+      propertyPath: _syncMethod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 169783347492457293, guid: ebc81662d5d36d247bcb36174ca96c2b,
+        type: 3}
+      propertyPath: _syncMethod
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 251166704954007813, guid: ebc81662d5d36d247bcb36174ca96c2b,
         type: 3}
       propertyPath: _syncMethod
@@ -366,6 +418,11 @@ PrefabInstance:
       propertyPath: _syncMethod
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4225587501343708193, guid: ebc81662d5d36d247bcb36174ca96c2b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4519723352385203309, guid: ebc81662d5d36d247bcb36174ca96c2b,
         type: 3}
       propertyPath: _syncMethod
@@ -377,6 +434,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4552666015850814460, guid: ebc81662d5d36d247bcb36174ca96c2b,
         type: 3}
+    - target: {fileID: 4662993480512394385, guid: ebc81662d5d36d247bcb36174ca96c2b,
+        type: 3}
+      propertyPath: _syncMethod
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5189018355108962108, guid: ebc81662d5d36d247bcb36174ca96c2b,
         type: 3}
       propertyPath: serializationData.Prefab
@@ -439,6 +501,11 @@ PrefabInstance:
       propertyPath: _syncMethod
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7882563285055568265, guid: ebc81662d5d36d247bcb36174ca96c2b,
+        type: 3}
+      propertyPath: _syncMethod
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7887258198914576836, guid: ebc81662d5d36d247bcb36174ca96c2b,
         type: 3}
       propertyPath: _syncMethod
@@ -453,6 +520,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _syncMethod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149709380481919022, guid: ebc81662d5d36d247bcb36174ca96c2b,
+        type: 3}
+      propertyPath: _syncMethod
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -703,17 +775,20 @@ MonoBehaviour:
   useAssignedLayers: 0
   DynamicPrefabs: []
   DynamicMaterials:
-  - {fileID: 2100000, guid: cfe1da100e1269b49be28f8b5e7d53b7, type: 2}
-  - {fileID: 2100000, guid: c5641099065a9554e80713c34fce3930, type: 2}
   - {fileID: 2100000, guid: 4e13c40282d46c544af6309bf1aa3395, type: 2}
-  - {fileID: 2100000, guid: b2b596ed0ddebb84cb166cb8a786c5f7, type: 2}
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: cfe1da100e1269b49be28f8b5e7d53b7, type: 2}
   - {fileID: 2100000, guid: 006001808ce579c45aefd4a6bb2537b4, type: 2}
+  - {fileID: 2100000, guid: b2b596ed0ddebb84cb166cb8a786c5f7, type: 2}
   - {fileID: 2100000, guid: 988109fa8b2ce6f4d9a9f0c954c76939, type: 2}
-  - {fileID: 2100000, guid: 260f2e454877a3645a773882e4e0af72, type: 2}
-  - {fileID: 2100000, guid: 7719a4aa1208ff64f9112831cb2b01ba, type: 2}
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
   - {fileID: 2100000, guid: 8d97f41c04af34d41a8857efbfa5bf49, type: 2}
+  - {fileID: 2100000, guid: 137fca7ed5ac11244816648fdddac1e2, type: 2}
+  - {fileID: 2100000, guid: abd4a9abe6110d145b7d3697ceade877, type: 2}
+  - {fileID: 2100000, guid: 687ef1055fa0511449b6dd59b9970a28, type: 2}
   - {fileID: 2100000, guid: 6a70de118f1ed45408b28b946e7191eb, type: 2}
+  - {fileID: 2100000, guid: 7719a4aa1208ff64f9112831cb2b01ba, type: 2}
+  - {fileID: 2100000, guid: c5641099065a9554e80713c34fce3930, type: 2}
+  - {fileID: 2100000, guid: 260f2e454877a3645a773882e4e0af72, type: 2}
   LightMapsNear: []
   LightMapsFar: []
   LightMode: 0
@@ -819,9 +894,31 @@ MonoBehaviour:
     ID: 22
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 398201582}
+    ID: 23
+    SerializedTypeNames:
+    - VRC.SDK3.Components.VRCPlayerObject
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 398201581}
+    ID: 24
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 398201580}
+    ID: 25
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 398201579}
+    ID: 26
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 398201578}
+    ID: 27
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  PlayerPersistence: []
+  PlayerPersistence:
+  - {fileID: 398201583}
   NavigationAreas: []
 --- !u!4 &1696182892
 Transform:

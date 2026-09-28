@@ -1,0 +1,1 @@
+PASS: Saved Lab 14 settings match; compiled Udon 334 assertions / 297 frames. Touch and native acquisition, independent local instances, both live cursors, trails, loss/recovery and logical-depth rendering pass. Synthetic SDK bones; not physical feel or multiplayer acceptance.
