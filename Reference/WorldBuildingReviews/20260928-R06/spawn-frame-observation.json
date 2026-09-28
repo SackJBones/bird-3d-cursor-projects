@@ -1,0 +1,511 @@
+{
+  "utc": "2026-09-28T12:56:02.146945+00:00",
+  "context": "R06 Quest VRChat arrival view after visible load, one idle client; not all-world, hand-active or multiplayer performance acceptance",
+  "source": "Android VrApi log lines for the observed VRChat process after 08:54:25 local",
+  "samples": 98,
+  "first": {
+    "local_time": "08:54:25.007",
+    "fps": 73,
+    "target_fps": 72
+  },
+  "last": {
+    "local_time": "08:56:02.014",
+    "fps": 72,
+    "target_fps": 72
+  },
+  "min_fps": 72,
+  "max_fps": 73,
+  "below_target": 0,
+  "observations": [
+    {
+      "local_time": "08:54:25.007",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:26.007",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:27.083",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:28.007",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:29.007",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:30.007",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:31.008",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:32.008",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:33.008",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:34.008",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:35.008",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:36.008",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:37.008",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:38.008",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:39.008",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:40.008",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:41.008",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:42.008",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:43.008",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:44.008",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:45.009",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:46.009",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:47.089",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:48.009",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:49.009",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:50.009",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:51.009",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:52.009",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:53.009",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:54.009",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:55.009",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:56.009",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:57.009",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:58.009",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:54:59.009",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:00.010",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:01.010",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:02.010",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:03.010",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:04.010",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:05.010",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:06.010",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:07.095",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:08.010",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:09.010",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:10.010",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:11.010",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:12.010",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:13.010",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:14.010",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:15.010",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:16.011",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:17.011",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:18.011",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:19.011",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:20.011",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:21.011",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:22.011",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:23.011",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:24.011",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:25.011",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:26.011",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:27.101",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:28.012",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:29.012",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:30.012",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:31.012",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:32.012",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:33.012",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:34.012",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:35.012",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:36.012",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:37.012",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:38.012",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:39.012",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:40.012",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:41.012",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:42.013",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:43.013",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:44.013",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:45.013",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:46.013",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:47.102",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:48.013",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:49.013",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:50.013",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:51.013",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:52.013",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:53.013",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:54.013",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:55.013",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:56.014",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:57.014",
+      "fps": 72,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:58.014",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:55:59.014",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:56:00.014",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:56:01.014",
+      "fps": 73,
+      "target_fps": 72
+    },
+    {
+      "local_time": "08:56:02.014",
+      "fps": 72,
+      "target_fps": 72
+    }
+  ]
+}
