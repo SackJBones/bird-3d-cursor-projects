@@ -1,0 +1,1 @@
+PASS: 319 pond floor/standing samples; no slab over water; beacon/inspection support; rail policy; 9938 triangles and nine actual renders. Full normal-frame walk remains separate.

@@ -1,0 +1,6 @@
+{
+  "baseline": "bfbb5dfb1cbc043702ac09903630f8799c268317",
+  "unchanged_existing_asset_count": 266,
+  "original_prefabs_meshes_materials_unchanged": true,
+  "note": "Pond-specific original scene objects are inactive overrides; fish transforms repositioned. No original stairs, room, beacon or Bird runtime edits."
+}

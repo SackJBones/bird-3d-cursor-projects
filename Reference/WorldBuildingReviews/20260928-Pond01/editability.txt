@@ -1,0 +1,1 @@
+PASS: scoped profile updates change geometry, preserve mesh GUID/reference identity, all scene transforms and authored additions, reject invalid dimensions before mutation, and restore complete original mesh bytes including UV2. Open-scene mesh collider cooking refreshed. Changes are not claimed to reflow circulation automatically.

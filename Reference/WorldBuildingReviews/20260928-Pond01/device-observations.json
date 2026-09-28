@@ -1,0 +1,131 @@
+{
+  "observations": [
+    {
+      "utc": "2026-09-28T23:11:57.786028+00:00",
+      "capture_only": false,
+      "bundle_sha256": "afe704c814e5f013bb2c356bec2f1973ab407516fe53c935dd76715fb5285b24",
+      "device_sha256": "afe704c814e5f013bb2c356bec2f1973ab407516fe53c935dd76715fb5285b24",
+      "transfer_verified": true,
+      "device_world": "BirdCoastalWorld_Pond01_Inspection.vrcw",
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "75",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "inspection_note": "Black cold-launch capture; not visual acceptance."
+    },
+    {
+      "utc": "2026-09-28T23:12:52.679829+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "75",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "error": "Missing PNG end marker",
+      "inspection_note": "Incomplete PNG rejected by integrity check; not visual acceptance."
+    },
+    {
+      "utc": "2026-09-28T23:13:14.095076+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "75",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "inspection_note": "Inspected stereo view visibly renders new terrace, rail and narrow water edge against cliff. Fixed tilted headset view does not show complete circuit. Existing fallback/error avatar visible."
+    },
+    {
+      "utc": "2026-09-28T23:14:14.041295+00:00",
+      "capture_only": false,
+      "bundle_sha256": "136e114fdff52d109ed8506c92fc03d33775931677511ac2a6f022ac0ab69d30",
+      "device_sha256": "136e114fdff52d109ed8506c92fc03d33775931677511ac2a6f022ac0ab69d30",
+      "transfer_verified": true,
+      "device_world": "BirdCoastalWorld_Pond01.vrcw",
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "75",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "inspection_note": "Inspected stereo view visibly renders normal arrival, Bird pedestal and beacon. Production build left running; Bird not acquired."
+    }
+  ],
+  "stationary_inspection_performance_samples": [
+    {
+      "fps": 73,
+      "target": 72,
+      "tear": 0,
+      "stale": 0,
+      "app_ms": 2.5
+    },
+    {
+      "fps": 73,
+      "target": 72,
+      "tear": 0,
+      "stale": 0,
+      "app_ms": 2.5
+    },
+    {
+      "fps": 73,
+      "target": 72,
+      "tear": 0,
+      "stale": 0,
+      "app_ms": 2.49
+    },
+    {
+      "fps": 73,
+      "target": 72,
+      "tear": 0,
+      "stale": 0,
+      "app_ms": 2.43
+    },
+    {
+      "fps": 72,
+      "target": 72,
+      "tear": 0,
+      "stale": 0,
+      "app_ms": 2.46
+    },
+    {
+      "fps": 72,
+      "target": 72,
+      "tear": 0,
+      "stale": 0,
+      "app_ms": 2.48
+    }
+  ],
+  "physical_hand_testing": false,
+  "multiplayer_test": false,
+  "raw_logs_and_images": "Ignored/private; not included here"
+}

@@ -1,0 +1,1 @@
+PASS: 338 standing capsule samples across both wing passages (3 m longitudinal by 3 m lateral, .25 m spacing), radius .25 m / height 1.75 m, with continuous flat supporting floor. This is sampled geometric clearance, not a varied-avatar comfort test.

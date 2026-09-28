@@ -1,0 +1,2 @@
+Scene instances: 229 mesh filters (2 known runtime Bird trail slots); 48182 authored triangles; 16 shared materials; 143 colliders. Inactive personal rigs and runtime-generated trails are not a measured device workload.
+Navigation capsule: radius .25 m, height 1.75 m, climb .24 m; voxel .08 m. Failed routes=0.

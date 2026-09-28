@@ -1,0 +1,1 @@
+PASS: Saved baked lighting executes under normal StandaloneWindows64 quality, bounded maps/probes, 177 receivers, eight actual renders. Review and physical acceptance remain separate.

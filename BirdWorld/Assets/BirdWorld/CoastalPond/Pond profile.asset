@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d0ccddcb89e4470927a393d9d25a0d4, type: 3}
+  m_Name: Pond profile
+  m_EditorClassIdentifier: 
+  centerline:
+  - {x: 20, y: 48}
+  - {x: 19.4, y: 53.6}
+  - {x: 16.3, y: 58.3}
+  - {x: 11.6, y: 61.4}
+  - {x: 6, y: 62}
+  - {x: 0.4, y: 61.4}
+  - {x: -4.3, y: 58.3}
+  - {x: -7.4, y: 53.6}
+  - {x: -8, y: 48}
+  waterHalfWidth: 2
+  walkWidth: 3.3
+  samplesPerSpan: 12
+  floorHeight: -2
+  waterDepth: 0.6

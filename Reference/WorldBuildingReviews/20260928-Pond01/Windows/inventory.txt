@@ -1,0 +1,1 @@
+319 supporting-floor/standing-clearance samples; 9938 pond triangles; water not covered by floor; exact rail proxies; full loop route written. Normal quality=VRC High. Not client locomotion or physical acceptance.
