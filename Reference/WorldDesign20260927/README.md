@@ -36,3 +36,11 @@ enclosed by architecture, and this image also references the distant island.
 | spawn point cavern lowpoly.png | 1361966 | `C38641C282C0D2853B6D05A366E12661B0ADD9AE48F2E69D2EB6BAE6410D9F24` |
 | circular opening and steps reference lowpoly.png | 1427781 | `9625BB505923D14C778A0B95A3277B9BDEB25A290C2B1228F2E6C0213611EFD7` |
 | sculptures lowpoly.png | 1496472 | `437B5B58B0EE352C9B73969550F0B8EA6964A1AB760F2B10431975B8FAF98E8C` |
+
+Added 2026-09-28 at Dana's request: `metaballs for bird world conversation.txt`
+(8298 bytes, SHA256 `C2F975D28F5028B12B83639A1B5004444D3FB74A50A7F2AAF6B02187986473AA`).
+The original bytes are retained. This is optional post-MVP modeling research:
+organic fields cut into inhabitable spaces, believable thickness, editable
+source, offline polygon output and economical collision/lighting. Bringing Bird
+to the existing world remains the priority. Technical suggestions in this
+user-supplied concept conversation have not all been independently verified.
