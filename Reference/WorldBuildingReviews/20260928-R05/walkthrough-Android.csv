@@ -1,0 +1,15 @@
+route,frames,end_error_m,status
+Arrival wing lantern outward,406,0.0405,complete
+Arrival wing lantern return,405,0.0586,complete
+Arrival wing gallery outward,406,0.0405,complete
+Arrival wing gallery return,405,0.0586,complete
+Cliff lounge outward,727,0.0879,complete
+Cliff lounge return,726,0.0671,complete
+Hidden tide lounge outward,1065,0.0341,complete
+Hidden tide lounge return,1064,0.0606,complete
+Conversation pit outward,695,0.0806,complete
+Conversation pit return,694,0.0618,complete
+Water overlook outward,1239,0.0731,complete
+Water overlook return,1238,0.0673,complete
+High lookout outward,1723,0.0804,complete
+High lookout return,1722,0.0352,complete

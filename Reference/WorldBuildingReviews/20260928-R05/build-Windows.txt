@@ -1,0 +1,1 @@
+Normal SDK Windows build and upload-size gates; 523683 bytes; SHA256=FAA9063A66A9E04C7EE66A8A46ADB77D8E3B2B731AA2DD193CBB04E5AD1DBBBD; 263 GameObjects, 843 components, no missing/project scripts; catalog verified. No launch or upload.

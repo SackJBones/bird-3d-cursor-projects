@@ -1,0 +1,1 @@
+Normal SDK Android build and upload-size gates; 486011 bytes; SHA256=312779CE69959E2EE9464D6966CC17B2DCF750367B36418386030C9F2B53349B; 263 GameObjects, 843 components, no missing/project scripts; catalog verified. No launch or upload.

@@ -369,7 +369,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 0.7
   m_Range: 7
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1769,7 +1769,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2769702966150348737}
-  m_Mesh: {fileID: 4300000, guid: 816edc7f13dc4d8409d910e2e551b3c1, type: 2}
+  m_Mesh: {fileID: 4300000, guid: e1d8709a546a0da4d9ec9f49a4e315fb, type: 2}
 --- !u!23 &4292818336050120479
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1833,7 +1833,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 816edc7f13dc4d8409d910e2e551b3c1, type: 2}
+  m_Mesh: {fileID: 4300000, guid: e1d8709a546a0da4d9ec9f49a4e315fb, type: 2}
 --- !u!1 &3009322997137946873
 GameObject:
   m_ObjectHideFlags: 0
@@ -2664,7 +2664,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 0.7
   m_Range: 7
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4410,7 +4410,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8464825448427104654}
-  m_Mesh: {fileID: 4300000, guid: 86979f295ce845449ad74ad300c1ba8a, type: 2}
+  m_Mesh: {fileID: 4300000, guid: e1d8709a546a0da4d9ec9f49a4e315fb, type: 2}
 --- !u!23 &5475319820359348217
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4474,7 +4474,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 86979f295ce845449ad74ad300c1ba8a, type: 2}
+  m_Mesh: {fileID: 4300000, guid: e1d8709a546a0da4d9ec9f49a4e315fb, type: 2}
 --- !u!1 &8701726192188381691
 GameObject:
   m_ObjectHideFlags: 0

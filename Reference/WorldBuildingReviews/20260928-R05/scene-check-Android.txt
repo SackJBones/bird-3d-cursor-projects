@@ -1,0 +1,1 @@
+PASS: Saved authored scene: safe spawn, six prefab regions, all seven destination routes complete for standing capsule; scoped mesh edit preservation and twenty captures. 30028 instance triangles / 10 materials. Not physical headset, multiplayer or measured device performance.

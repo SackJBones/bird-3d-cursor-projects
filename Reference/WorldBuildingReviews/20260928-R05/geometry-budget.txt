@@ -1,0 +1,2 @@
+Scene instances: 223 mesh renderers; 30028 triangles; 10 shared materials; 123 colliders. These are scene counts, not measured Quest frame cost.
+Navigation capsule: radius .25 m, height 1.75 m, climb .24 m; voxel .08 m. Failed routes=0.
