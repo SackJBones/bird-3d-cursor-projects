@@ -1,0 +1,1 @@
+PASS: Compiled Udon 70 assertions / 100 frames: finite disk targeting, occlusion, landing footprint/headroom, lifecycle, both-hand arbitration, gated travel, local teleport and renders. Explicit pointer fixtures; not finger-click, physical comfort or multiplayer acceptance.

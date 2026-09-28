@@ -1,0 +1,404 @@
+{
+  "utc": "2026-09-28T15:07:32.022953+00:00",
+  "bundle_sha256": "2731c6f032cdd458081a3d2eba4913e55878e7219716de858cc3e0c0871476c9",
+  "device_sha256": "2731c6f032cdd458081a3d2eba4913e55878e7219716de858cc3e0c0871476c9",
+  "transfer_verified": true,
+  "app_process_running": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "74",
+    "temperature": "370"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "visual_inspection": "Actual stereo Quest VRChat arrival scene; new turquoise ring is separate at left of Bird pedestal. Inspecting the image establishes loading/rendering only.",
+  "physical_clicks_verified": false,
+  "physical_comfort_verified": false,
+  "multiplayer_verified": false,
+  "online_upload_performed": false,
+  "raw_device_evidence": "Private ignored Validation/CoastalWorld/DeviceBeacons01-20260928-Launch",
+  "later_capture": {
+    "utc": "2026-09-28T15:10:48.056783+00:00",
+    "app_process_running": true,
+    "battery": {
+      "AC powered": "true",
+      "USB powered": "false",
+      "Weak Charger": "false",
+      "level": "74",
+      "temperature": "370"
+    },
+    "matched_udon_error_lines": 0,
+    "png_integrity_verified": true,
+    "visual_inspection": "Inspected stereo image still shows beacon preview rendering at arrival, with separate teal ring beside pedestal."
+  },
+  "idle_arrival_observation": {
+    "scope": "Last 60 available VrApi samples from an unattended arrival view after loading. Bird not acquired; not active targeting, multiplayer, all-world performance or physical feel acceptance.",
+    "samples": [
+      {
+        "local_time": "09-28 11:09:51.009",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.59
+      },
+      {
+        "local_time": "09-28 11:09:52.010",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.58
+      },
+      {
+        "local_time": "09-28 11:09:53.010",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:09:54.010",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:09:55.010",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.54
+      },
+      {
+        "local_time": "09-28 11:09:56.010",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:09:57.010",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:09:58.010",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:09:59.010",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:00.010",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.58
+      },
+      {
+        "local_time": "09-28 11:10:01.010",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.54
+      },
+      {
+        "local_time": "09-28 11:10:02.010",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.54
+      },
+      {
+        "local_time": "09-28 11:10:03.010",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:04.097",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.62
+      },
+      {
+        "local_time": "09-28 11:10:05.011",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.62
+      },
+      {
+        "local_time": "09-28 11:10:06.011",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.65
+      },
+      {
+        "local_time": "09-28 11:10:07.011",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.52
+      },
+      {
+        "local_time": "09-28 11:10:08.011",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.59
+      },
+      {
+        "local_time": "09-28 11:10:09.011",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:10:10.011",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:10:11.011",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.59
+      },
+      {
+        "local_time": "09-28 11:10:12.011",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:10:13.011",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:14.011",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:15.011",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.55
+      },
+      {
+        "local_time": "09-28 11:10:16.011",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.55
+      },
+      {
+        "local_time": "09-28 11:10:17.011",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:18.011",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.62
+      },
+      {
+        "local_time": "09-28 11:10:19.011",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.6
+      },
+      {
+        "local_time": "09-28 11:10:20.011",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:10:21.012",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:10:22.012",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.64
+      },
+      {
+        "local_time": "09-28 11:10:23.012",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.58
+      },
+      {
+        "local_time": "09-28 11:10:24.103",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.58
+      },
+      {
+        "local_time": "09-28 11:10:25.012",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.58
+      },
+      {
+        "local_time": "09-28 11:10:26.012",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.64
+      },
+      {
+        "local_time": "09-28 11:10:27.012",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:28.012",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:29.012",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:30.012",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:10:31.012",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.59
+      },
+      {
+        "local_time": "09-28 11:10:32.012",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.55
+      },
+      {
+        "local_time": "09-28 11:10:33.012",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:34.012",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:10:35.013",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:36.013",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:37.013",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:38.013",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:39.013",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:40.013",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:41.014",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.55
+      },
+      {
+        "local_time": "09-28 11:10:42.014",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.61
+      },
+      {
+        "local_time": "09-28 11:10:43.014",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:44.101",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:10:45.014",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.56
+      },
+      {
+        "local_time": "09-28 11:10:46.014",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.58
+      },
+      {
+        "local_time": "09-28 11:10:47.014",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.58
+      },
+      {
+        "local_time": "09-28 11:10:48.014",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.57
+      },
+      {
+        "local_time": "09-28 11:10:49.014",
+        "fps": 73,
+        "target_fps": 72,
+        "app_ms": 3.58
+      },
+      {
+        "local_time": "09-28 11:10:50.014",
+        "fps": 72,
+        "target_fps": 72,
+        "app_ms": 3.59
+      }
+    ],
+    "min_fps": 72,
+    "max_fps": 73,
+    "mean_app_ms": 3.5745
+  }
+}
