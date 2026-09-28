@@ -1,0 +1,1 @@
+PASS: Normal SDK Windows build and upload-size gates; 1828941 bytes; SHA256=9CA620F4C3F82ED76F24C65A18D862A1CDE6072673765549AF0EB52E2ED1D974; 365 GameObjects, 1114 components, 28 unsynced Udon programs + one manual per-player stream, no persistence or missing/project scripts; catalog verified. No launch or upload.

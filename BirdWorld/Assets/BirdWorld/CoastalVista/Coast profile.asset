@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9127fbdfb8394fdcaa7687fe4c08d8ef, type: 3}
+  m_Name: Coast profile
+  m_EditorClassIdentifier: 
+  middleCoast:
+  - {x: -650, y: 60, z: 10, w: -4}
+  - {x: -510, y: 30, z: 120, w: 65}
+  - {x: -365, y: -20, z: 170, w: 165}
+  - {x: -230, y: 5, z: 125, w: 92}
+  - {x: -80, y: 50, z: 170, w: 115}
+  - {x: 80, y: 20, z: 145, w: 245}
+  - {x: 210, y: -35, z: 180, w: 145}
+  - {x: 370, y: -20, z: 145, w: 72}
+  - {x: 530, y: 70, z: 80, w: 35}
+  - {x: 670, y: 110, z: 8, w: -4}
+  farCoast:
+  - {x: -850, y: 70, z: 10, w: -4}
+  - {x: -650, y: 20, z: 145, w: 70}
+  - {x: -390, y: -15, z: 240, w: 180}
+  - {x: -160, y: 50, z: 160, w: 105}
+  - {x: 90, y: 0, z: 210, w: 260}
+  - {x: 280, y: -50, z: 170, w: 170}
+  - {x: 540, y: 30, z: 220, w: 100}
+  - {x: 820, y: 100, z: 10, w: -4}
+  middleRock: {r: 0.42, g: 0.55, b: 0.59, a: 1}
+  middleLand: {r: 0.46, g: 0.58, b: 0.51, a: 1}
+  farRock: {r: 0.59, g: 0.69, b: 0.73, a: 1}
+  farLand: {r: 0.59, g: 0.7, b: 0.68, a: 1}
+  nearWater: {r: 0.12, g: 0.38, b: 0.48, a: 1}
+  farWater: {r: 0.53, g: 0.69, b: 0.75, a: 1}
+  waterRadius: 6500

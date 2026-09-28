@@ -1,0 +1,62 @@
+{
+  "view": "actual Quest VRChat water overlook; stereo capture inspected at 21:02:36 UTC",
+  "scope": "six recent one-second stationary samples only; Bird not acquired; no active or multiplayer performance acceptance",
+  "samples": [
+    {
+      "fps": 73.0,
+      "target": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.85,
+      "cpu_gpu_ms": 5.11
+    },
+    {
+      "fps": 73.0,
+      "target": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.82,
+      "cpu_gpu_ms": 4.83
+    },
+    {
+      "fps": 73.0,
+      "target": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.85,
+      "cpu_gpu_ms": 5.45
+    },
+    {
+      "fps": 73.0,
+      "target": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.85,
+      "cpu_gpu_ms": 5.45
+    },
+    {
+      "fps": 73.0,
+      "target": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.87,
+      "cpu_gpu_ms": 5.26
+    },
+    {
+      "fps": 72.0,
+      "target": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.88,
+      "cpu_gpu_ms": 5.59
+    }
+  ],
+  "app_ms_range": [
+    1.82,
+    1.88
+  ],
+  "fps_range": [
+    72.0,
+    73.0
+  ]
+}

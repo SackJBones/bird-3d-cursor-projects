@@ -1,0 +1,1 @@
+PASS: Updated only three vista profile meshes, preserving asset identities and prefab transforms.

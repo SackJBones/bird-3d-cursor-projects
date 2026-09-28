@@ -1,0 +1,79 @@
+{
+  "observations": [
+    {
+      "utc": "2026-09-28T20:30:26.164049+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "75",
+        "temperature": "390"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "observation": "Previous Lighting01 visibly rendering at arrival."
+    },
+    {
+      "utc": "2026-09-28T21:01:42.976269+00:00",
+      "capture_only": false,
+      "bundle_sha256": "e3ff2dd71e23af7aa8c85f7efd2fbc26120f8102c15f06953875ce8870ec2f22",
+      "device_sha256": "e3ff2dd71e23af7aa8c85f7efd2fbc26120f8102c15f06953875ce8870ec2f22",
+      "transfer_verified": true,
+      "launch_requested": true,
+      "app_process_running": false,
+      "observation": "Transfer hash verified; ADB transport failed during Unity lifecycle before capture. This is not a rendering failure result."
+    },
+    {
+      "utc": "2026-09-28T21:02:36.281023+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "75",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "observation": "Actual stereo rendering of water overlook with new sky, sea, middle and far coast; image manually inspected."
+    },
+    {
+      "utc": "2026-09-28T21:04:12.181245+00:00",
+      "capture_only": false,
+      "bundle_sha256": "89fe7c52615e06e25fbe9d8615420695bbdd2eed892e324095c49bdad8f3afa4",
+      "device_sha256": "89fe7c52615e06e25fbe9d8615420695bbdd2eed892e324095c49bdad8f3afa4",
+      "transfer_verified": true,
+      "launch_requested": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "75",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "observation": "Production Vista01 visibly rendering at original arrival; image manually inspected. A client public-instance toast is not an online world upload."
+    }
+  ],
+  "limits": "Fallback/error avatar hands remain. Bird not acquired. No physical gestures, comfort, active workload or real multiplayer acceptance. Raw logs/screens remain ignored and private."
+}

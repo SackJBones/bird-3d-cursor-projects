@@ -1,0 +1,16 @@
+{
+  "exact_production_scene_restored": true,
+  "sha256": "f87954d35eb1161e69af83bb298bd5cc7d18f3a78a9de56428ca1af789a50336",
+  "normal_spawn": [
+    0,
+    0.05,
+    -13
+  ],
+  "inspection_spawn": [
+    15,
+    -1.97,
+    47
+  ],
+  "allowed_sdk_change": "DynamicMaterials order only; same membership; all other temporary scene fields identical",
+  "inspection_exit_code": 0
+}

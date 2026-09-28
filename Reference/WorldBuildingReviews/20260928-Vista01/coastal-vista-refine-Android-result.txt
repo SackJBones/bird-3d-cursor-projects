@@ -1,0 +1,1 @@
+PASS: Refined sky and far-coast placement; saved palette colors now use explicit linear vertex channels.

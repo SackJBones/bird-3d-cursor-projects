@@ -1,0 +1,1 @@
+Vista meshes=3; triangles=864; added colliders/lights=0; maps=2; quality=VRC Mobile. Eight normal-quality captures; no physical/multiplayer acceptance.

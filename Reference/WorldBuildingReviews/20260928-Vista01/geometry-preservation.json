@@ -1,0 +1,8 @@
+{
+  "baseline": "a4e6277e40a79fd13bc6e65c280df985de9eac8a",
+  "unchanged_existing_asset_count": 257,
+  "unchanged_original_scene_transforms": 9,
+  "architecture_prefabs_meshes_materials_unchanged": true,
+  "new_scenery_has_no_colliders": "validated by UnityVistaChecks",
+  "note": "Sea renderer disabled and sky camera/render settings intentionally changed; baked lighting rebaked. No Bird runtime source changed."
+}

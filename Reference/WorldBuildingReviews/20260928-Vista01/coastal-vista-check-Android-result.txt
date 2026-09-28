@@ -1,0 +1,1 @@
+PASS: Three editable scenery meshes, 864 triangles, supported sky/color shaders, no new collision or lights, baked maps retained, eight normal-quality rendered views.
