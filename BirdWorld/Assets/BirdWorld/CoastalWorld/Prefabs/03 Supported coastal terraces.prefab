@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 8453259195836064155}
   - component: {fileID: 4809731814351987533}
   - component: {fileID: 6264153931133455792}
-  m_Layer: 0
+  - component: {fileID: 2645257669342056856}
+  m_Layer: 17
   m_Name: Upper edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,6 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2645257669342056856
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34060947947640052}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: ffaf85bd4894abf4bb9341e46f964c98, type: 2}
 --- !u!1 &231263377282230024
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +222,8 @@ GameObject:
   - component: {fileID: 4330827841243148202}
   - component: {fileID: 4861620244207100849}
   - component: {fileID: 4989869267456778907}
-  m_Layer: 0
+  - component: {fileID: 7436880459713143102}
+  m_Layer: 17
   m_Name: Lookout edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,6 +295,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7436880459713143102
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266450331277797708}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 59b90135f08141b4fa2c034169686b05, type: 2}
 --- !u!1 &386922616733886972
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +329,7 @@ GameObject:
   - component: {fileID: 1238677044611580646}
   - component: {fileID: 7846245437511785516}
   - component: {fileID: 8006890474970519873}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Upper edge safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -678,7 +724,7 @@ GameObject:
   - component: {fileID: 8476274007131117747}
   - component: {fileID: 213489419329298211}
   - component: {fileID: 1262546680005955015}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cliff stair lower outer rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1100,7 +1146,8 @@ GameObject:
   - component: {fileID: 3310689197848210052}
   - component: {fileID: 8803379747654018870}
   - component: {fileID: 6622567343554639642}
-  m_Layer: 0
+  - component: {fileID: 6422973532543805440}
+  m_Layer: 17
   m_Name: Cliff stair lower inner rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1172,6 +1219,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6422973532543805440
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686109866943484533}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e110e49c01772864daa60d4941f98a8e, type: 2}
 --- !u!1 &1745709524225520950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,7 +1253,7 @@ GameObject:
   - component: {fileID: 3393785480417982201}
   - component: {fileID: 6071798910896041810}
   - component: {fileID: 7592969084573372427}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cliff stair lower inner rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1665,7 +1734,8 @@ GameObject:
   - component: {fileID: 7725324694577057386}
   - component: {fileID: 6281440418202879877}
   - component: {fileID: 7015654021581044918}
-  m_Layer: 0
+  - component: {fileID: 2840831034293545047}
+  m_Layer: 17
   m_Name: Lookout stair void side B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1737,6 +1807,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2840831034293545047
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953370831284361614}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 20f87fa023982fc458eb11b6380de98b, type: 2}
 --- !u!1 &2094678687814056280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1854,7 +1946,7 @@ GameObject:
   - component: {fileID: 7811818610867970727}
   - component: {fileID: 7021595408284583644}
   - component: {fileID: 5053145617366316115}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Front parapet right safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1958,7 +2050,8 @@ GameObject:
   - component: {fileID: 3229591764313467916}
   - component: {fileID: 1921576896044965540}
   - component: {fileID: 3147103606653109627}
-  m_Layer: 0
+  - component: {fileID: 3300683861292761581}
+  m_Layer: 17
   m_Name: Front parapet center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2030,6 +2123,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3300683861292761581
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2486054050925692751}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 50aa60c1d49c86d4e9d843065deaf50a, type: 2}
 --- !u!1 &2521416446799438671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2042,7 +2157,7 @@ GameObject:
   - component: {fileID: 565517189772267980}
   - component: {fileID: 594331897480928410}
   - component: {fileID: 8352475259402392318}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cliff stair upper inner rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2524,7 +2639,7 @@ GameObject:
   - component: {fileID: 5687734343476967335}
   - component: {fileID: 817284349393682180}
   - component: {fileID: 2877118893760666102}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Front parapet center safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3028,7 +3143,8 @@ GameObject:
   - component: {fileID: 6629659367005017300}
   - component: {fileID: 5660839703930564938}
   - component: {fileID: 3828883206525814009}
-  m_Layer: 0
+  - component: {fileID: 8838479741671656121}
+  m_Layer: 17
   m_Name: Lookout stair void side A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3100,6 +3216,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8838479741671656121
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3429555695670237204}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 616db9f259cab5d4594e3e3dc5ce3ffc, type: 2}
 --- !u!1 &3480076402214514015
 GameObject:
   m_ObjectHideFlags: 0
@@ -3314,7 +3452,7 @@ GameObject:
   - component: {fileID: 8853829410832175957}
   - component: {fileID: 8936986798200696083}
   - component: {fileID: 1094668135171453974}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lookout stair inner rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3419,7 +3557,7 @@ GameObject:
   - component: {fileID: 767731364961312057}
   - component: {fileID: 7526704077624109652}
   - component: {fileID: 5361870811041150329}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lookout edge safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3678,7 +3816,7 @@ GameObject:
   - component: {fileID: 6993910738186771444}
   - component: {fileID: 5205340843404089379}
   - component: {fileID: 1881516803947164444}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Coast parapet safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4244,7 +4382,7 @@ GameObject:
   - component: {fileID: 3135543387488554776}
   - component: {fileID: 6472256286699068577}
   - component: {fileID: 2975159988367708737}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cliff stair upper outer rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4536,7 +4674,8 @@ GameObject:
   - component: {fileID: 9170875684431985952}
   - component: {fileID: 4785378582957497218}
   - component: {fileID: 5518745704769277365}
-  m_Layer: 0
+  - component: {fileID: 4096523684361869524}
+  m_Layer: 17
   m_Name: Cliff stair lower outer rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4608,6 +4747,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4096523684361869524
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868110875730980221}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: c49290f14095d544d80f9a740a8fe3d8, type: 2}
 --- !u!1 &4868130713252478147
 GameObject:
   m_ObjectHideFlags: 0
@@ -4912,7 +5073,8 @@ GameObject:
   - component: {fileID: 6783075655184926156}
   - component: {fileID: 4943387726155685070}
   - component: {fileID: 5835825787074736340}
-  m_Layer: 0
+  - component: {fileID: 1686133550385453458}
+  m_Layer: 17
   m_Name: Lookout stair outer rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4984,6 +5146,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1686133550385453458
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5131718065560698640}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: ac7b380900b25ae44a7ce4461c3a9ccd, type: 2}
 --- !u!1 &5145599845706187082
 GameObject:
   m_ObjectHideFlags: 0
@@ -4996,7 +5180,7 @@ GameObject:
   - component: {fileID: 3451416921512441024}
   - component: {fileID: 4006528910507177913}
   - component: {fileID: 960082150168765374}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lookout stair void side A safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5207,7 +5391,7 @@ GameObject:
   - component: {fileID: 2405890714231884583}
   - component: {fileID: 7431947105157207840}
   - component: {fileID: 2502903389575611612}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lookout stair void side B safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5535,7 +5719,8 @@ GameObject:
   - component: {fileID: 6906236435124588002}
   - component: {fileID: 1399692824458074534}
   - component: {fileID: 6647369305589754973}
-  m_Layer: 0
+  - component: {fileID: 136204609979582205}
+  m_Layer: 17
   m_Name: Upper stair void right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5607,6 +5792,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &136204609979582205
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5806598761366190463}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e98516677af273f45b0cfc0553a3ab62, type: 2}
 --- !u!1 &5824657355080348288
 GameObject:
   m_ObjectHideFlags: 0
@@ -5618,7 +5825,8 @@ GameObject:
   - component: {fileID: 4678097701822460944}
   - component: {fileID: 551086192853352894}
   - component: {fileID: 7122896331460437574}
-  m_Layer: 0
+  - component: {fileID: 3196977610059293063}
+  m_Layer: 17
   m_Name: Front parapet right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5690,6 +5898,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3196977610059293063
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824657355080348288}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 125eb7f5d32d37644af5cd522330c44d, type: 2}
 --- !u!1 &5903107097248409365
 GameObject:
   m_ObjectHideFlags: 0
@@ -5996,7 +6226,7 @@ GameObject:
   - component: {fileID: 5459024390783210444}
   - component: {fileID: 4752162239954665101}
   - component: {fileID: 5355054246274358787}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Upper stair void end safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6101,7 +6331,7 @@ GameObject:
   - component: {fileID: 8833012190858539194}
   - component: {fileID: 4912393692957716041}
   - component: {fileID: 4221449357205338778}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lookout stair outer rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6205,7 +6435,8 @@ GameObject:
   - component: {fileID: 1080221315627533387}
   - component: {fileID: 8456353672450953691}
   - component: {fileID: 7358943140783869407}
-  m_Layer: 0
+  - component: {fileID: 4341350554307365725}
+  m_Layer: 17
   m_Name: Coast parapet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6277,6 +6508,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4341350554307365725
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6256309252044859098}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 76e47d71b4f2b194382aee1913b8d3fb, type: 2}
 --- !u!1 &6418173611880970482
 GameObject:
   m_ObjectHideFlags: 0
@@ -6288,7 +6541,8 @@ GameObject:
   - component: {fileID: 4935110177788904603}
   - component: {fileID: 7256815126860837476}
   - component: {fileID: 8155421052526150558}
-  m_Layer: 0
+  - component: {fileID: 4416278161673283671}
+  m_Layer: 17
   m_Name: Cliff stair upper inner rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6360,6 +6614,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4416278161673283671
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6418173611880970482}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e7cf8f8f96d31d94fa574d757a7adc91, type: 2}
 --- !u!1 &6427583986824628088
 GameObject:
   m_ObjectHideFlags: 0
@@ -6582,7 +6858,8 @@ GameObject:
   - component: {fileID: 5552444412926283607}
   - component: {fileID: 4587856403843245912}
   - component: {fileID: 4852380531224643880}
-  m_Layer: 0
+  - component: {fileID: 2414443024692677652}
+  m_Layer: 17
   m_Name: Lookout stair inner rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6654,6 +6931,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2414443024692677652
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6569895608889599861}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 0a5e1257ec79e1f418c01ddb5df5f3ff, type: 2}
 --- !u!1 &6598659232181501923
 GameObject:
   m_ObjectHideFlags: 0
@@ -6771,7 +7070,8 @@ GameObject:
   - component: {fileID: 3213215783973451582}
   - component: {fileID: 3032477231454702435}
   - component: {fileID: 4270158913253209401}
-  m_Layer: 0
+  - component: {fileID: 3970463760451554895}
+  m_Layer: 17
   m_Name: Cliff stair upper outer rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6843,6 +7143,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3970463760451554895
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6709022070484674375}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: c501606f165c9814cadfff7843091e5f, type: 2}
 --- !u!1 &6941098393126592382
 GameObject:
   m_ObjectHideFlags: 0
@@ -7527,7 +7849,7 @@ GameObject:
   - component: {fileID: 2108145258619138039}
   - component: {fileID: 7297924289144283147}
   - component: {fileID: 352844637940829288}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Upper stair void right safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7844,7 +8166,7 @@ GameObject:
   - component: {fileID: 4713311795542773418}
   - component: {fileID: 7831072117587177538}
   - component: {fileID: 3044215551658081049}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Upper stair void left safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7948,7 +8270,8 @@ GameObject:
   - component: {fileID: 6064344430504430016}
   - component: {fileID: 2231351774367248261}
   - component: {fileID: 5452236608659547954}
-  m_Layer: 0
+  - component: {fileID: 4947736040300306098}
+  m_Layer: 17
   m_Name: Upper stair void end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8020,6 +8343,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4947736040300306098
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8592818190035666889}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: fab901eeaacfacf4bbf3a25dd19fac64, type: 2}
 --- !u!1 &8736697254611167061
 GameObject:
   m_ObjectHideFlags: 0
@@ -8383,7 +8728,8 @@ GameObject:
   - component: {fileID: 5995288190451662465}
   - component: {fileID: 2321007446908261415}
   - component: {fileID: 408388262308468727}
-  m_Layer: 0
+  - component: {fileID: 7851269523950555986}
+  m_Layer: 17
   m_Name: Upper stair void left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8455,3 +8801,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7851269523950555986
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9066606452480643080}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d373541fff838d1428575442ae666aed, type: 2}

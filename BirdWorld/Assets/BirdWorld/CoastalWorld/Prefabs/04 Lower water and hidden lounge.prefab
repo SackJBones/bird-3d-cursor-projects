@@ -552,7 +552,8 @@ GameObject:
   - component: {fileID: 1719294215495313100}
   - component: {fileID: 750250013130568257}
   - component: {fileID: 219655964264531012}
-  m_Layer: 0
+  - component: {fileID: 2628969585827063708}
+  m_Layer: 17
   m_Name: Water stair inner rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,6 +625,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2628969585827063708
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440185221542924509}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 759a02bebd4b7d24aaf46b1bbc49ba96, type: 2}
 --- !u!1 &477550008378099421
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,7 +883,7 @@ GameObject:
   - component: {fileID: 7912059506392332340}
   - component: {fileID: 2296714028632924901}
   - component: {fileID: 1502280794012345115}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Tide approach cliff edge safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1102,7 +1125,7 @@ GameObject:
   - component: {fileID: 7208131290950998522}
   - component: {fileID: 254912600956005181}
   - component: {fileID: 5982532034542810723}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Water stair outer rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1395,7 +1418,7 @@ GameObject:
   - component: {fileID: 5136653655143954387}
   - component: {fileID: 326999970895611998}
   - component: {fileID: 4429186881398285778}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Discovery stair outer rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1710,7 +1733,8 @@ GameObject:
   - component: {fileID: 1575574734858698975}
   - component: {fileID: 7565279657141501719}
   - component: {fileID: 525324036458653923}
-  m_Layer: 0
+  - component: {fileID: 5194941569334465599}
+  m_Layer: 17
   m_Name: Tide approach cliff edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1782,6 +1806,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5194941569334465599
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660541712300559615}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 8949851a80febf3408ed64a8a508003c, type: 2}
 --- !u!1 &1714903375623585959
 GameObject:
   m_ObjectHideFlags: 0
@@ -1888,7 +1934,7 @@ GameObject:
   - component: {fileID: 3775349064009530845}
   - component: {fileID: 5219266911936495104}
   - component: {fileID: 1208775315119813550}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sea edge safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1992,7 +2038,8 @@ GameObject:
   - component: {fileID: 6754548097649268463}
   - component: {fileID: 1374891754036803501}
   - component: {fileID: 3544638807152702801}
-  m_Layer: 0
+  - component: {fileID: 9113370558790259733}
+  m_Layer: 17
   m_Name: Lower front edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2064,6 +2111,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9113370558790259733
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933287463492311888}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 75fd009900a55494bac414919e670edc, type: 2}
 --- !u!1 &2107360566385080347
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,7 +2437,8 @@ GameObject:
   - component: {fileID: 4675254984100810292}
   - component: {fileID: 6822344015591980090}
   - component: {fileID: 3336502451117874462}
-  m_Layer: 0
+  - component: {fileID: 7482523316170154879}
+  m_Layer: 17
   m_Name: Water stair outer rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2440,6 +2510,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7482523316170154879
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2264751055176419069}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e97483db1f32f734bb340513d273bea2, type: 2}
 --- !u!1 &2384783709510688631
 GameObject:
   m_ObjectHideFlags: 0
@@ -2451,7 +2543,8 @@ GameObject:
   - component: {fileID: 8401901202386403761}
   - component: {fileID: 4391193352262887832}
   - component: {fileID: 2696470908121985492}
-  m_Layer: 0
+  - component: {fileID: 3340992913594523782}
+  m_Layer: 17
   m_Name: Sea edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2523,6 +2616,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3340992913594523782
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2384783709510688631}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f92541589c8897f4881987d98565b1d9, type: 2}
 --- !u!1 &2485896956737825137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2866,7 +2981,8 @@ GameObject:
   - component: {fileID: 6022106054369597926}
   - component: {fileID: 6765876536731500020}
   - component: {fileID: 3160487940993974653}
-  m_Layer: 0
+  - component: {fileID: 4928239595955633331}
+  m_Layer: 17
   m_Name: Pool inner edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2938,6 +3054,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4928239595955633331
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2929564140100769691}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: fe94f5cd108f9f0498793c9b94354219, type: 2}
 --- !u!1 &3024953325891510594
 GameObject:
   m_ObjectHideFlags: 0
@@ -3360,7 +3498,8 @@ GameObject:
   - component: {fileID: 5816393151161133872}
   - component: {fileID: 3476811338820001121}
   - component: {fileID: 1036974152569800808}
-  m_Layer: 0
+  - component: {fileID: 2183609543343198941}
+  m_Layer: 17
   m_Name: Discovery stair inner rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3432,6 +3571,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2183609543343198941
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4338536034008577385}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 8cf1e9b8d1f1eb6468dd32faa980e067, type: 2}
 --- !u!1 &4492381304133382749
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,7 +3793,7 @@ GameObject:
   - component: {fileID: 3850791628000303681}
   - component: {fileID: 5016446986564930174}
   - component: {fileID: 1089610629998924584}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lower front edge safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3737,7 +3898,7 @@ GameObject:
   - component: {fileID: 5635441557482463379}
   - component: {fileID: 4161765443568020754}
   - component: {fileID: 1183341764518271606}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Water stair inner rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3842,7 +4003,7 @@ GameObject:
   - component: {fileID: 2842079498299240389}
   - component: {fileID: 7649964223360171262}
   - component: {fileID: 2507138927002256329}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pool outer edge safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3947,7 +4108,7 @@ GameObject:
   - component: {fileID: 8760836498836814150}
   - component: {fileID: 3496392591859043078}
   - component: {fileID: 9055339146744658880}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Tide approach sea edge safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4156,7 +4317,8 @@ GameObject:
   - component: {fileID: 2352449091714713123}
   - component: {fileID: 7381481967328343953}
   - component: {fileID: 2213779042874329125}
-  m_Layer: 0
+  - component: {fileID: 943446914664414398}
+  m_Layer: 17
   m_Name: Discovery stair outer rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4228,6 +4390,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &943446914664414398
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6044745826022077209}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: add9f5b9a5b58ea488505d423d77dd0e, type: 2}
 --- !u!1 &6175589876453344263
 GameObject:
   m_ObjectHideFlags: 0
@@ -4240,7 +4424,7 @@ GameObject:
   - component: {fileID: 2610177362095619783}
   - component: {fileID: 4758711475284149511}
   - component: {fileID: 3243851283010053487}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Discovery stair inner rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4510,7 +4694,8 @@ GameObject:
   - component: {fileID: 3228175337019331718}
   - component: {fileID: 2447327554216503938}
   - component: {fileID: 7267984326698138565}
-  m_Layer: 0
+  - component: {fileID: 5555179070071185114}
+  m_Layer: 17
   m_Name: Tide approach sea edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4582,6 +4767,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5555179070071185114
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6372101481090865460}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: b0fbe118c9078e64593225e4831c44c7, type: 2}
 --- !u!1 &6625303058683544998
 GameObject:
   m_ObjectHideFlags: 0
@@ -5871,7 +6078,8 @@ GameObject:
   - component: {fileID: 119175487184629549}
   - component: {fileID: 1319351027399982133}
   - component: {fileID: 5804788789537781277}
-  m_Layer: 0
+  - component: {fileID: 5163192973405975476}
+  m_Layer: 17
   m_Name: Pool outer edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5943,6 +6151,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5163192973405975476
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8457928954206179215}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 98dae57114bf59348bc55aebd91bf939, type: 2}
 --- !u!1 &8471965808198731509
 GameObject:
   m_ObjectHideFlags: 0
@@ -6226,7 +6456,7 @@ GameObject:
   - component: {fileID: 2923537775970272327}
   - component: {fileID: 930370137949943021}
   - component: {fileID: 3889660619799541181}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pool inner edge safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}

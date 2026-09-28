@@ -1,0 +1,35 @@
+route,frames,end_error_m,status
+Arrival wing lantern outward,406,0.0429,complete
+Arrival wing lantern return,405,0.0603,complete
+Arrival wing gallery outward,406,0.0429,complete
+Arrival wing gallery return,405,0.0603,complete
+Cliff lounge outward,726,0.0696,complete
+Cliff lounge return,725,0.0629,complete
+Hidden tide lounge outward,1064,0.0859,complete
+Hidden tide lounge return,1063,0.0571,complete
+Conversation pit outward,695,0.0818,complete
+Conversation pit return,694,0.0634,complete
+Water overlook outward,1239,0.0717,complete
+Water overlook return,1238,0.0609,complete
+High lookout outward,1719,0.0531,complete
+High lookout return,1719,0.0578,complete
+Pit radial descent 0 outward,31,0.2339,complete
+Pit radial descent 0 return,30,0.0650,complete
+Pit radial descent 1 outward,31,0.2339,complete
+Pit radial descent 1 return,30,0.0650,complete
+Pit radial descent 2 outward,31,0.2339,complete
+Pit radial descent 2 return,30,0.0650,complete
+Pit radial descent 3 outward,31,0.2339,complete
+Pit radial descent 3 return,30,0.0650,complete
+Pit radial descent 4 outward,31,0.2339,complete
+Pit radial descent 4 return,30,0.0650,complete
+Pit radial descent 5 outward,31,0.2339,complete
+Pit radial descent 5 return,30,0.0650,complete
+Pit radial descent 6 outward,31,0.2339,complete
+Pit radial descent 6 return,30,0.0650,complete
+Pit radial descent 7 outward,31,0.2339,complete
+Pit radial descent 7 return,30,0.0650,complete
+Pit complete inner ring outward,460,0.2185,complete
+Pit complete inner ring return,459,0.2085,complete
+Pit seat opening to floor outward,74,0.0472,complete
+Pit seat opening to floor return,73,0.0650,complete

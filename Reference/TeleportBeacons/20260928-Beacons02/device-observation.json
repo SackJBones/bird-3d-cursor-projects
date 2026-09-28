@@ -1,0 +1,129 @@
+{
+  "observations": [
+    {
+      "utc": "2026-09-28T16:28:12.158669+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "74",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "visual_observation": "Inspected stereo: previous Beacons01 arrival rendering.",
+      "private_capture_sha256": "d86e4b794c9961285697b434f9f446c4f31610009c5244567191f1e645791ffa"
+    },
+    {
+      "utc": "2026-09-28T16:54:21.724015+00:00",
+      "capture_only": false,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "74",
+        "temperature": "380"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "device_world": "BirdCoastalWorld_Beacons02.vrcw",
+      "bundle_sha256": "e067c0d7c46e99d4081cc916a4c7aef4e44e23f473e41def2b5d07dfcfa8ef60",
+      "device_sha256": "e067c0d7c46e99d4081cc916a4c7aef4e44e23f473e41def2b5d07dfcfa8ef60",
+      "transfer_verified": true,
+      "visual_observation": "Inspected stereo: Meta system/store UI, not world rendering.",
+      "private_capture_sha256": "d9031e426da5b47e914d2c288ec9b4a78ed47ccdc1d0dca69508ac09d90c415f"
+    },
+    {
+      "utc": "2026-09-28T16:55:48.433613+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "74",
+        "temperature": "390"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "visual_observation": "Inspected stereo: still Meta system/store UI, not world rendering.",
+      "private_capture_sha256": "5a09171b65ed8099f8e61bdfd7a6bcf2ede32d9dfa053aa5cc9176d09aa7e070"
+    },
+    {
+      "utc": "2026-09-28T16:57:48.717802+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "74",
+        "temperature": "390"
+      },
+      "matched_udon_error_lines": 0,
+      "visual_observation": "Capture failed during Unity/ADB lifecycle; no image acceptance."
+    },
+    {
+      "utc": "2026-09-28T16:58:27.708419+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "74",
+        "temperature": "400"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "visual_observation": "Inspected stereo: Beacons02 arrival rendering, including the new practice panel at right. Bird not acquired; physical gestures untested.",
+      "private_capture_sha256": "f556da346aad3df6bc48597591f57e3a613f54abc3ceeadd37113e37a09e2fa9"
+    },
+    {
+      "utc": "2026-09-28T17:08:46.782924+00:00",
+      "capture_only": true,
+      "app_process_running": true,
+      "battery": {
+        "AC powered": "true",
+        "USB powered": "false",
+        "Weak Charger": "false",
+        "level": "74",
+        "temperature": "390"
+      },
+      "matched_udon_error_lines": 0,
+      "png_dimensions": [
+        4128,
+        2208
+      ],
+      "png_integrity_verified": true,
+      "evidence_capture_complete": true,
+      "visual_observation": "Inspected stereo: Beacons02 arrival and new side practice panel still rendering in Quest VRChat. Bird not acquired; no physical gesture validation.",
+      "private_capture_sha256": "2f951543e18e5c2e490eba8a04011faad762b0874253d17e18ae9523b44d8088"
+    }
+  ],
+  "recovery": "Normal am start -W repeated for the existing activity with the same SDK localWorldPath/watchWorlds string extras. Warm start returned Status ok; resumed activity and focus then verified. No client patch, boundary change or authentication change.",
+  "limits": "Unattended loading/rendering only; not active hand targeting, physical comfort, multiplayer or all-world performance. Zero matched Udon lines is not a clean-log guarantee. Raw logs/images/network details stay private."
+}

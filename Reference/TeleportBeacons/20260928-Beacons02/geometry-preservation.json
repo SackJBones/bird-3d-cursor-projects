@@ -1,0 +1,20 @@
+{
+  "base_commit": "bfe66075a283dc3709455ec65291d15309caabff",
+  "checks": [
+    {
+      "prefab": "01 Arrival cavern",
+      "unchanged_transform_and_original_collider_documents": 41,
+      "guards": 2
+    },
+    {
+      "prefab": "03 Supported coastal terraces",
+      "unchanged_transform_and_original_collider_documents": 141,
+      "guards": 16
+    },
+    {
+      "prefab": "04 Lower water and hidden lounge",
+      "unchanged_transform_and_original_collider_documents": 104,
+      "guards": 10
+    }
+  ]
+}

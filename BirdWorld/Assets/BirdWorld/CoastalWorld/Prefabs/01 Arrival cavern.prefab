@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 5257511122695487294}
   - component: {fileID: 3880873871632100629}
   - component: {fileID: 234221260560467367}
-  m_Layer: 0
+  - component: {fileID: 7440330905520763486}
+  m_Layer: 17
   m_Name: Threshold steps outer rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,6 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7440330905520763486
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126204848744758881}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 802184c0e82209649bda7c46e27fca95, type: 2}
 --- !u!1 &342191832131317151
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +201,7 @@ GameObject:
   - component: {fileID: 3497801249366814083}
   - component: {fileID: 8980984013654130330}
   - component: {fileID: 7944938304672706101}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Threshold steps inner rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -388,7 +411,8 @@ GameObject:
   - component: {fileID: 2413673540060255018}
   - component: {fileID: 8052867048653024857}
   - component: {fileID: 7743343694365730839}
-  m_Layer: 0
+  - component: {fileID: 4833014812722374452}
+  m_Layer: 17
   m_Name: Threshold steps inner rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -460,6 +484,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4833014812722374452
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541256838056493402}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: cd9c75541103bf44ab89a882c18eb57d, type: 2}
 --- !u!1 &1642857321674695983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,7 +1095,7 @@ GameObject:
   - component: {fileID: 8933631903313608081}
   - component: {fileID: 6494827649566043590}
   - component: {fileID: 4577821809186137338}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Threshold steps outer rail safety boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}

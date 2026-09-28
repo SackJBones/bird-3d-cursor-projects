@@ -1,0 +1,1 @@
+PASS: Standing CharacterController traversed 17 saved-collider routes out and back in 14059 normal frames. Includes seven destination routes and any authored pit repair probes. No jump, teleport between corners or at turnaround, or collision bypass. Single-player geometry test, not headset/client locomotion.

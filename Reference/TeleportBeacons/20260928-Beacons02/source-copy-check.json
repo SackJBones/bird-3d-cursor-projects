@@ -1,0 +1,12 @@
+{
+  "byte_identical_maintained_and_generated": [
+    "Integrations\\VRChat\\BirdClickPractice.cs",
+    "Integrations\\VRChat\\BirdCursorState.cs",
+    "Integrations\\VRChat\\BirdTeleportBeacon.cs",
+    "tests\\UnityBeaconChecks.cs",
+    "tests\\UnityPersonalBirdChecks.cs",
+    "tests\\UnityCoastalWalkChecks.cs",
+    "tests\\UnityCoastalWorldChecks.cs",
+    "Integrations\\VRChat\\Editor\\BirdWorldInteractionAuthoring.cs"
+  ]
+}
