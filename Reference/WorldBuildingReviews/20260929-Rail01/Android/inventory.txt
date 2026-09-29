@@ -1,0 +1,1 @@
+3828 triangles; 5742 closed oriented edges; 349 top path rays; 86 posts; 347 open spans; 2 capped/posted ends. Exact visible proxies and separate player guards; no runtime/light/material added. Seven normal-quality views, no physical acceptance.

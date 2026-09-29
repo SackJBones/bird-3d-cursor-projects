@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-29T07:03:44.734850+00:00",
+  "capture_only": false,
+  "bundle_sha256": "c4e07524ed72caa831eee7d8b6800b2aa90c936815d7b135998cdfd52d55e8dc",
+  "device_sha256": "c4e07524ed72caa831eee7d8b6800b2aa90c936815d7b135998cdfd52d55e8dc",
+  "transfer_verified": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Both eyes show Connecting; not world-rendering acceptance."
+}

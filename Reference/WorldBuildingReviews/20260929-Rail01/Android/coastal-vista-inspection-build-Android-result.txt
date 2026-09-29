@@ -1,0 +1,1 @@
+PASS: Normal SDK Android build and upload-size gates; 1932906 bytes; SHA256=C4E07524ED72CAA831EEE7D8B6800B2AA90C936815D7B135998CDFD52D55E8DC; 427 GameObjects, 1301 components, 29 unsynced Udon programs + one manual per-player stream, no persistence or missing/project scripts; catalog verified. No launch or upload.

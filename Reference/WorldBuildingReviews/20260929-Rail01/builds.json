@@ -1,0 +1,17 @@
+[
+  {
+    "bundle": "BirdCoastalWorld_Android.vrcw",
+    "bytes": 1930471,
+    "sha256": "cc510fe3d8b1e4f3e88e62bcf6af0edf71ad8153a67a9287de1bfce43bbc03fa"
+  },
+  {
+    "bundle": "BirdCoastalWorld_Windows.vrcw",
+    "bytes": 2154490,
+    "sha256": "cad8c0ac36815515b707ceddd30e8ac56070757d267f112871ccc018cd8c6cda"
+  },
+  {
+    "bundle": "BirdCoastalWorld_VistaInspection_Android.vrcw",
+    "bytes": 1932906,
+    "sha256": "c4e07524ed72caa831eee7d8b6800b2aa90c936815d7b135998cdfd52d55e8dc"
+  }
+]

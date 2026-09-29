@@ -1,0 +1,9 @@
+{
+  "exact_restoration_after_android_export": true,
+  "sha256": "0e66415f4c08468dfedff36846dd58db0b825ad11e26f48f8c05ba6204305733",
+  "after_windows_and_android_restore_exact": true,
+  "sdk_material_order_permutation_restored": true,
+  "final_sha256": "529e674aeae15bfcc435bf3e4df7993c8d155fb1258f1c16d50dfae5c1b1f586",
+  "baseline_scene_material_order_restored": true,
+  "restoration_note": "Inspection backup restored exactly after export. Windows permutation restored after Android setup. Final scene also matched initial clean HEAD except DynamicMaterials order/newlines; restored that original order to avoid unrelated source churn."
+}

@@ -1,0 +1,142 @@
+There are 140 objects in the Scene with overlapping UV's. Please see the details list below or use the 'UV Overlap' visualisation mode in the Scene View or Lightmaps in Lighting Settings for more information.
+
+- Basin and fascia: 1665 texels
+- Connected stair treads: 1320 texels
+- Connected stair treads: 1213 texels
+- Connected stair treads: 1213 texels
+- Connected stair treads: 1146 texels
+- Connected stair treads: 927 texels
+- Connected stair treads: 631 texels
+- Closed conversation pit steps: 388 texels
+- Folded ribbon sculpture: 360 texels
+- Upper edge: 236 texels
+- Wing curved passage -1: 180 texels
+- Wing curved passage 1: 180 texels
+- Lookout edge: 177 texels
+- Folded ribbon sculpture: 175 texels
+- Bird gesture study: 131 texels
+- Cliff stair lower inner rail: 121 texels
+- Cliff stair lower outer rail: 120 texels
+- Lookout stair void side B: 117 texels
+- Upper stair void left: 114 texels
+- Upper stair void right: 114 texels
+- Cliff stair upper outer rail: 113 texels
+- Cliff stair upper inner rail: 113 texels
+- White plinth: 110 texels
+- Conversation floor: 110 texels
+- Lookout stair outer rail: 105 texels
+- Lookout stair inner rail: 105 texels
+- Discovery stair outer rail: 104 texels
+- Water stair inner rail: 104 texels
+- Water stair outer rail: 104 texels
+- Conversation back: 100 texels
+- Discovery stair inner rail: 100 texels
+- Room vault: 99 texels
+- Lookout stair void side A: 98 texels
+- Warm sitting surface: 96 texels
+- Sofa base -1: 95 texels
+- Conversation bench: 89 texels
+- Room threshold: 88 texels
+- Low back: 84 texels
+- Low back: 82 texels
+- Upper stair void end: 81 texels
+- Coastal leaves: 80 texels
+- Coastal leaves: 79 texels
+- Sofa cushion 1: 78 texels
+- Sofa cushion 1: 78 texels
+- Coastal leaves: 78 texels
+- Sofa cushion -1: 78 texels
+- Sofa cushion 1: 78 texels
+- Sofa cushion 1: 78 texels
+- Low table: 76 texels
+- Sofa back 1: 76 texels
+- Warm sitting surface: 75 texels
+- Coastal leaves: 75 texels
+- Lounge threshold: 74 texels
+- Threshold steps inner rail: 70 texels
+- Threshold steps outer rail: 70 texels
+- Conversation cushion: 68 texels
+- White plinth: 67 texels
+- Sofa base -1: 67 texels
+- Wing connector floor -1: 66 texels
+- Wing connector floor 1: 66 texels
+- Arrival ridge shoulder: 64 texels
+- White planting base: 63 texels
+- Sofa cushion -1: 60 texels
+- Sofa cushion -1: 60 texels
+- Low table: 59 texels
+- Sofa back 1: 59 texels
+- Low conversation table: 59 texels
+- Small study plinth: 59 texels
+- Low table: 59 texels
+- Sofa back -1: 59 texels
+- Sofa back 1: 59 texels
+- Sofa back -1: 59 texels
+- White planting base: 58 texels
+- Sculpture plinth: 58 texels
+- Sofa base 1: 57 texels
+- Sofa base 1: 57 texels
+- Sofa base -1: 57 texels
+- Sofa base 1: 57 texels
+- Sofa base -1: 57 texels
+- Sofa back -1: 56 texels
+- Low table: 56 texels
+- Sofa back 1: 56 texels
+- Sofa base 1: 56 texels
+- Onboarding plinth: 54 texels
+- Sofa cushion -1: 54 texels
+- Room side -1: 52 texels
+- Room side -1: 52 texels
+- Sculpture plinth: 51 texels
+- Sofa back -1: 51 texels
+- White planting base: 49 texels
+- Room vault: 48 texels
+- Second folded study: 47 texels
+- Room vault: 47 texels
+- Room vault: 47 texels
+- Second folded study: 47 texels
+- Small study plinth: 46 texels
+- Coast parapet: 46 texels
+- Warm back inset: 43 texels
+- Warm back inset: 43 texels
+- Lookout branching support: 38 texels
+- White planter: 38 texels
+- White planter: 38 texels
+- White planter: 38 texels
+- White planter: 38 texels
+- Front parapet center: 30 texels
+- Tide approach sea edge: 30 texels
+- Bounded distant cliff island: 28 texels
+- Sculpture timber backdrop: 28 texels
+- Timber rhythm 0: 26 texels
+- Timber rhythm 7: 26 texels
+- Timber rhythm 0: 26 texels
+- Timber rhythm 4: 26 texels
+- Timber rhythm 5: 26 texels
+- Pendant cord: 24 texels
+- Tide approach cliff edge: 24 texels
+- Sculpture timber backdrop: 24 texels
+- Pendant cord: 24 texels
+- Pendant cord: 24 texels
+- Pendant cord: 24 texels
+- Timber rhythm 3: 23 texels
+- Timber rhythm 7: 23 texels
+- Timber rhythm 1: 23 texels
+- Timber rhythm 2: 23 texels
+- Timber rhythm 6: 23 texels
+- Timber rhythm 3: 23 texels
+- Timber rhythm 5: 23 texels
+- Timber rhythm 8: 23 texels
+- Timber rhythm 1: 23 texels
+- Timber rhythm 6: 19 texels
+- Timber rhythm 4: 19 texels
+- Side wing opening 1: 19 texels
+- Timber rhythm 8: 19 texels
+- Timber rhythm 2: 19 texels
+- Side wing opening -1: 17 texels
+- Front parapet right: 15 texels
+- Distant shoreline headland: 13 texels
+- Curved water: 12 texels
+- Continuous walk and terrace: 5 texels
+- Room threshold: 4 texels
+- Room threshold: 4 texels

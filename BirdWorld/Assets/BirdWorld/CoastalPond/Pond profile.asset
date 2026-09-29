@@ -25,6 +25,7 @@ MonoBehaviour:
   waterHalfWidth: 2
   walkWidth: 3.3
   samplesPerSpan: 12
+  railRevision: 1
   floorHeight: -2
   waterDepth: 0.6
   basinDepthBelowWater: 0.55

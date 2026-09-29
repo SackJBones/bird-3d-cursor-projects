@@ -1,0 +1,1 @@
+PASS: Joined two saved square rails and finished exposed ends; raised their bake scale. Five floor/water/fascia/player-guard mesh files byte-identical, rail GUIDs retained. Rebake required.

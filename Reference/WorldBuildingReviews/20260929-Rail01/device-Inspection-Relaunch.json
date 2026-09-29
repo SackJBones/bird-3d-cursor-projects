@@ -1,0 +1,58 @@
+{
+  "utc": "2026-09-29T07:06:16.151953+00:00",
+  "capture_only": false,
+  "bundle_sha256": "c4e07524ed72caa831eee7d8b6800b2aa90c936815d7b135998cdfd52d55e8dc",
+  "device_sha256": "c4e07524ed72caa831eee7d8b6800b2aa90c936815d7b135998cdfd52d55e8dc",
+  "transfer_verified": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Actual VRChat renders the western promenade, smooth continuous rail and terminal post, water and fish in both eyes. Existing fallback/error avatar overlaps the scene; fixed headset tilt limits review. No physical input or comfort acceptance.",
+  "stationary_performance_samples": [
+    {
+      "FPS": "73",
+      "Tear": "0",
+      "Stale": "0",
+      "App": "2.09"
+    },
+    {
+      "FPS": "72",
+      "Tear": "0",
+      "Stale": "0",
+      "App": "2.34"
+    },
+    {
+      "FPS": "73",
+      "Tear": "0",
+      "Stale": "0",
+      "App": "2.37"
+    },
+    {
+      "FPS": "72",
+      "Tear": "0",
+      "Stale": "0",
+      "App": "2.47"
+    },
+    {
+      "FPS": "72",
+      "Tear": "0",
+      "Stale": "0",
+      "App": "2.47"
+    },
+    {
+      "FPS": "73",
+      "Tear": "0",
+      "Stale": "0",
+      "App": "2.42"
+    }
+  ],
+  "performance_scope": "Recent stationary client telemetry only; not active Bird or crowded-world performance."
+}
