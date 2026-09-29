@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-29T08:55:27.437245+00:00",
+  "capture_only": false,
+  "bundle_sha256": "50fd76153205b4107685de5aadefe5e5703c031d281c8f9b613d0dde0d4e1145",
+  "device_sha256": "50fd76153205b4107685de5aadefe5e5703c031d281c8f9b613d0dde0d4e1145",
+  "transfer_verified": true,
+  "launch_requested": true,
+  "app_process_running": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "420"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Complete PNG is entirely black; no world or label visual acceptance.",
+  "world_rendering_verified": false
+}

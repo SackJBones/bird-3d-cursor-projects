@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-29T08:35:16.193049+00:00",
+  "capture_only": true,
+  "app_process_running": false,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "410"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "No VRChat process and black capture; no visual acceptance."
+}

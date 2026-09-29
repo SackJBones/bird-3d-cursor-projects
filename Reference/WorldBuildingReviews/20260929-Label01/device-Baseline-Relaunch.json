@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-29T08:36:05.027781+00:00",
+  "capture_only": false,
+  "bundle_sha256": "cc510fe3d8b1e4f3e88e62bcf6af0edf71ad8153a67a9287de1bfce43bbc03fa",
+  "device_sha256": "cc510fe3d8b1e4f3e88e62bcf6af0edf71ad8153a67a9287de1bfce43bbc03fa",
+  "transfer_verified": true,
+  "app_process_running": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "410"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Prior Rail01 bundle hash verified and process started, but image remains black; no visual acceptance."
+}

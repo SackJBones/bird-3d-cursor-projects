@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-29T09:01:30.385500+00:00",
+  "capture_only": true,
+  "app_process_running": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "420"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "After an ordinary sleep/wake cycle and warm app focus, both eyes show Meta Finding position in room / room too dim to track. Independently inspected by root and critic. No world or labels visible.",
+  "world_rendering_verified": false
+}

@@ -24,7 +24,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266594917869494}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   m_LocalPosition: {x: 0, y: 0, z: 0.025}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
@@ -84,7 +84,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237520754268027285}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   m_LocalPosition: {x: 0, y: 0, z: 0.025}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
@@ -281,6 +281,7 @@ GameObject:
   - component: {fileID: 8893374003244422098}
   - component: {fileID: 3158914414637203380}
   - component: {fileID: 5721799000938135197}
+  - component: {fileID: 1419942086439405860}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Untagged
@@ -327,8 +328,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.06, g: 0.33, b: 0.38, a: 1}
+  m_Material: {fileID: 2100000, guid: 355e3e2bab1bc2146912d9d16d7ec066, type: 2}
+  m_Color: {r: 0.97, g: 0.985, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -351,6 +352,21 @@ MonoBehaviour:
   m_Text: 'Conversation terrace
 
     Point through to highlight'
+--- !u!114 &1419942086439405860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542755315295551477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.025, g: 0.075, b: 0.085, a: 1}
+  m_EffectDistance: {x: 1.25, y: -1.25}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1268874874367823557
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,7 +526,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828151858673132371}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   m_LocalPosition: {x: 0, y: 0, z: 0.025}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
@@ -778,7 +794,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2444758906179305171}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   m_LocalPosition: {x: 0, y: 0, z: 0.025}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
@@ -869,7 +885,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2810384622625271591}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.025}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
@@ -1033,7 +1049,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3024270728733988671}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.025}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
@@ -1194,6 +1210,7 @@ GameObject:
   - component: {fileID: 5976691824213205052}
   - component: {fileID: 4466944234897652326}
   - component: {fileID: 4136999233396601267}
+  - component: {fileID: 6808896364125291749}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Untagged
@@ -1240,8 +1257,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.06, g: 0.33, b: 0.38, a: 1}
+  m_Material: {fileID: 2100000, guid: 355e3e2bab1bc2146912d9d16d7ec066, type: 2}
+  m_Color: {r: 0.97, g: 0.985, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1264,6 +1281,21 @@ MonoBehaviour:
   m_Text: 'Upper terrace
 
     Point through to highlight'
+--- !u!114 &6808896364125291749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3529391254856648338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.025, g: 0.075, b: 0.085, a: 1}
+  m_EffectDistance: {x: 1.25, y: -1.25}
+  m_UseGraphicAlpha: 1
 --- !u!1 &3792723711206509272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,6 +1307,7 @@ GameObject:
   - component: {fileID: 8368481913011955757}
   - component: {fileID: 1256076030387490305}
   - component: {fileID: 4678913261005788258}
+  - component: {fileID: 4374632843383533115}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Untagged
@@ -1321,8 +1354,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.06, g: 0.33, b: 0.38, a: 1}
+  m_Material: {fileID: 2100000, guid: 355e3e2bab1bc2146912d9d16d7ec066, type: 2}
+  m_Color: {r: 0.97, g: 0.985, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1345,6 +1378,21 @@ MonoBehaviour:
   m_Text: 'High lookout
 
     Point through to highlight'
+--- !u!114 &4374632843383533115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3792723711206509272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.025, g: 0.075, b: 0.085, a: 1}
+  m_EffectDistance: {x: 1.25, y: -1.25}
+  m_UseGraphicAlpha: 1
 --- !u!1 &3831702995675972393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,7 +1567,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4118225340605829817}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   m_LocalPosition: {x: 0, y: 0, z: 0.025}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
@@ -1707,6 +1755,7 @@ GameObject:
   - component: {fileID: 3869753829237637149}
   - component: {fileID: 5747267798954692390}
   - component: {fileID: 8437515322834276333}
+  - component: {fileID: 7666952346039595208}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Untagged
@@ -1753,8 +1802,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.06, g: 0.33, b: 0.38, a: 1}
+  m_Material: {fileID: 2100000, guid: 355e3e2bab1bc2146912d9d16d7ec066, type: 2}
+  m_Color: {r: 0.97, g: 0.985, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1777,6 +1826,21 @@ MonoBehaviour:
   m_Text: 'Arrival
 
     Point through to highlight'
+--- !u!114 &7666952346039595208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4903179142805945265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.025, g: 0.075, b: 0.085, a: 1}
+  m_EffectDistance: {x: 1.25, y: -1.25}
+  m_UseGraphicAlpha: 1
 --- !u!1 &4998053921197483610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1788,6 +1852,7 @@ GameObject:
   - component: {fileID: 6815792087142684551}
   - component: {fileID: 706640690271207715}
   - component: {fileID: 6195238781307891470}
+  - component: {fileID: 6164862618335838559}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Untagged
@@ -1834,8 +1899,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.06, g: 0.33, b: 0.38, a: 1}
+  m_Material: {fileID: 2100000, guid: 355e3e2bab1bc2146912d9d16d7ec066, type: 2}
+  m_Color: {r: 0.97, g: 0.985, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1858,6 +1923,21 @@ MonoBehaviour:
   m_Text: 'Water garden
 
     Point through to highlight'
+--- !u!114 &6164862618335838559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4998053921197483610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.025, g: 0.075, b: 0.085, a: 1}
+  m_EffectDistance: {x: 1.25, y: -1.25}
+  m_UseGraphicAlpha: 1
 --- !u!1 &5043905590332624684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,7 +2128,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5177847075893073249}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.025}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
@@ -2095,6 +2175,7 @@ GameObject:
   - component: {fileID: 8582797948137559441}
   - component: {fileID: 1284085895439058137}
   - component: {fileID: 2088802596595411126}
+  - component: {fileID: 9173672780869676848}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Untagged
@@ -2141,8 +2222,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.06, g: 0.33, b: 0.38, a: 1}
+  m_Material: {fileID: 2100000, guid: 355e3e2bab1bc2146912d9d16d7ec066, type: 2}
+  m_Color: {r: 0.97, g: 0.985, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2165,6 +2246,21 @@ MonoBehaviour:
   m_Text: 'Arrival
 
     Point through to highlight'
+--- !u!114 &9173672780869676848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5357267740587193791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.025, g: 0.075, b: 0.085, a: 1}
+  m_EffectDistance: {x: 1.25, y: -1.25}
+  m_UseGraphicAlpha: 1
 --- !u!1 &5459038629680199882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2446,6 +2542,7 @@ GameObject:
   - component: {fileID: 5743152027873581317}
   - component: {fileID: 4755096073450135312}
   - component: {fileID: 4290080388723374887}
+  - component: {fileID: 3891851571618073498}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Untagged
@@ -2492,8 +2589,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.06, g: 0.33, b: 0.38, a: 1}
+  m_Material: {fileID: 2100000, guid: 355e3e2bab1bc2146912d9d16d7ec066, type: 2}
+  m_Color: {r: 0.97, g: 0.985, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2516,6 +2613,21 @@ MonoBehaviour:
   m_Text: 'Conversation terrace
 
     Point through to highlight'
+--- !u!114 &3891851571618073498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5898057235413124854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.025, g: 0.075, b: 0.085, a: 1}
+  m_EffectDistance: {x: 1.25, y: -1.25}
+  m_UseGraphicAlpha: 1
 --- !u!1 &6031686367432000061
 GameObject:
   m_ObjectHideFlags: 0
@@ -2540,7 +2652,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6031686367432000061}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.025}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
@@ -2600,7 +2712,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7142642505156749185}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.025}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
@@ -2678,6 +2790,7 @@ GameObject:
   - component: {fileID: 2423972544754693959}
   - component: {fileID: 4635985917910458215}
   - component: {fileID: 47881560057568859}
+  - component: {fileID: 6519823579357160258}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Untagged
@@ -2724,8 +2837,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.06, g: 0.33, b: 0.38, a: 1}
+  m_Material: {fileID: 2100000, guid: 355e3e2bab1bc2146912d9d16d7ec066, type: 2}
+  m_Color: {r: 0.97, g: 0.985, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2748,6 +2861,21 @@ MonoBehaviour:
   m_Text: 'Upper terrace
 
     Point through to highlight'
+--- !u!114 &6519823579357160258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7763098321505334769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.025, g: 0.075, b: 0.085, a: 1}
+  m_EffectDistance: {x: 1.25, y: -1.25}
+  m_UseGraphicAlpha: 1
 --- !u!1 &7934090783139989630
 GameObject:
   m_ObjectHideFlags: 0
@@ -2759,6 +2887,7 @@ GameObject:
   - component: {fileID: 402634944740750877}
   - component: {fileID: 7290130165104266081}
   - component: {fileID: 2257676354297181127}
+  - component: {fileID: 3589915604160686722}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Untagged
@@ -2805,8 +2934,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.06, g: 0.33, b: 0.38, a: 1}
+  m_Material: {fileID: 2100000, guid: 355e3e2bab1bc2146912d9d16d7ec066, type: 2}
+  m_Color: {r: 0.97, g: 0.985, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2829,6 +2958,21 @@ MonoBehaviour:
   m_Text: 'Water garden
 
     Point through to highlight'
+--- !u!114 &3589915604160686722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7934090783139989630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.025, g: 0.075, b: 0.085, a: 1}
+  m_EffectDistance: {x: 1.25, y: -1.25}
+  m_UseGraphicAlpha: 1
 --- !u!1 &8925936630443381764
 GameObject:
   m_ObjectHideFlags: 0
@@ -2840,6 +2984,7 @@ GameObject:
   - component: {fileID: 60344171664901519}
   - component: {fileID: 6189191404771625926}
   - component: {fileID: 5413403418604754732}
+  - component: {fileID: 743911908907455307}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Untagged
@@ -2886,8 +3031,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.06, g: 0.33, b: 0.38, a: 1}
+  m_Material: {fileID: 2100000, guid: 355e3e2bab1bc2146912d9d16d7ec066, type: 2}
+  m_Color: {r: 0.97, g: 0.985, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2910,3 +3055,18 @@ MonoBehaviour:
   m_Text: 'High lookout
 
     Point through to highlight'
+--- !u!114 &743911908907455307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8925936630443381764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.025, g: 0.075, b: 0.085, a: 1}
+  m_EffectDistance: {x: 1.25, y: -1.25}
+  m_UseGraphicAlpha: 1

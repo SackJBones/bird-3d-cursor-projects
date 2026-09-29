@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-29T09:02:25.964683+00:00",
+  "capture_only": false,
+  "bundle_sha256": "322e628c44e0360826311427b9c60452929072d666c74957e41911cd6a59ddfe",
+  "device_sha256": "322e628c44e0360826311427b9c60452929072d666c74957e41911cd6a59ddfe",
+  "transfer_verified": true,
+  "launch_requested": true,
+  "app_process_running": false,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "410"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Normal production bundle transferred with matching hash and launch requested. Capture shows the same room-too-dim tracking dialog; no VRChat process remains. Helper correctly exits 1. Production is installed but NOT confirmed loaded or running.",
+  "world_rendering_verified": false
+}

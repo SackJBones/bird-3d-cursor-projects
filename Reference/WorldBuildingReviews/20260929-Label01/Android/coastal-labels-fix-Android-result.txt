@@ -1,0 +1,1 @@
+PASS: Ten original text faces use outward-facing, depth-tested world UI material and subtle outline. Beacon geometry, landing and saved travel permission unchanged.

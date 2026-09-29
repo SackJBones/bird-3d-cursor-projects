@@ -1,0 +1,8 @@
+{
+  "initial_android_inspection_exact_restoration": true,
+  "initial_sha256": "584a86d2cb7d84dfbabb6199de92b9e9300669916bdcae67740f5723f6a9bcda",
+  "final_android_inspection_exact_restoration": true,
+  "final_inspection_source_sha256": "e2820f98fa505530ec622e700c65c5523cee6b872283de0a988d5bb2c7b78169",
+  "only_material_order_changed_from_clean_baseline": true,
+  "baseline_scene_material_order_restored": true
+}

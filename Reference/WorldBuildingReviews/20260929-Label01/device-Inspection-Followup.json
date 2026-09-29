@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-29T09:00:02.641398+00:00",
+  "capture_only": true,
+  "app_process_running": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "420"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Read-only follow-up is still entirely black despite running processes; no visual acceptance.",
+  "world_rendering_verified": false
+}

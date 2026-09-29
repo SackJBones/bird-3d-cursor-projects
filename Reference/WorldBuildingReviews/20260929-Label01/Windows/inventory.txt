@@ -1,0 +1,1 @@
+Ten outward text faces; 9 rendered front/rear/oblique face-isolation comparisons, plus normal depth occlusion; seven context views. No targeting, geometry, landing or permission changes. Not physical text comfort acceptance.
