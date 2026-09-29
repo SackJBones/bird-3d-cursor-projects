@@ -27,3 +27,4 @@ MonoBehaviour:
   samplesPerSpan: 12
   floorHeight: -2
   waterDepth: 0.6
+  basinDepthBelowWater: 0.55

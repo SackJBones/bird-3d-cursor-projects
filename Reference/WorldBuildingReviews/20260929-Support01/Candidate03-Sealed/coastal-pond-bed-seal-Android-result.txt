@@ -1,0 +1,1 @@
+PASS: Extended 963 submerged wall vertices to -3.17; all other vertices and indices retained. Re-bake required.

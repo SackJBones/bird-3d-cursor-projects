@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-29T05:15:00.896793+00:00",
+  "capture_only": false,
+  "bundle_sha256": "7d329e9c7dfbdc8e84dde338262ba3dee91857e411f48e74d90663df1b712bc1",
+  "device_sha256": "7d329e9c7dfbdc8e84dde338262ba3dee91857e411f48e74d90663df1b712bc1",
+  "transfer_verified": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Actual stereo Quest VRChat production arrival inspected at 05:16 UTC: pedestal, beacons and architecture present; existing fallback/error avatar remains. Production Support01 LEFT RUNNING. No acquired Bird, physical input or multiplayer acceptance."
+}

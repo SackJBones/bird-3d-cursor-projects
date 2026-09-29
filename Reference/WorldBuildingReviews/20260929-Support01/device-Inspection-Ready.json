@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-29T05:09:09.498273+00:00",
+  "capture_only": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "400"
+  },
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Read-only attempt failed during a logcat read; no complete screenshot.",
+  "observation_incomplete": true
+}

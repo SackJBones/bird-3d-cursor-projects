@@ -1,0 +1,7 @@
+{
+  "exact_restoration_after_android_export": true,
+  "sha256": "5d6940a6f25c54ed440119596b97ea076f1a0e1602d9b199381bf15b569181ce",
+  "after_windows_and_android_restore_exact": true,
+  "sdk_material_order_permutation_restored": true,
+  "final_sha256": "5d6940a6f25c54ed440119596b97ea076f1a0e1602d9b199381bf15b569181ce"
+}

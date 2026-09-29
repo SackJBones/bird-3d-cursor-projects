@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-29T05:10:37.548821+00:00",
+  "capture_only": false,
+  "bundle_sha256": "7bd94421be5f00b7a85e76c54a728498e5d8b9e2a5e4161caa60a59879d94bec",
+  "device_sha256": "7bd94421be5f00b7a85e76c54a728498e5d8b9e2a5e4161caa60a59879d94bec",
+  "transfer_verified": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Ordinary cold relaunch transferred identical bundle; screenshot truncated and file fallback lost transport.",
+  "observation_incomplete": true
+}

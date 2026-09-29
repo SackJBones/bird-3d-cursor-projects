@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-29T05:10:02.091233+00:00",
+  "capture_only": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Complete retry capture still showed Connecting."
+}

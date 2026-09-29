@@ -1,0 +1,55 @@
+{
+  "utc": "2026-09-29T05:14:21.623994+00:00",
+  "capture_only": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Actual stereo Quest VRChat capture inspected at 05:14 UTC: new bracket, slab connection and cliff visible in both eyes from separate temporary footing. Existing fallback/error avatar remains. No physical input acceptance.",
+  "stationary_performance_samples": [
+    {
+      "FPS": "72/72",
+      "App": "3.03",
+      "Tear": "1",
+      "Stale": "0"
+    },
+    {
+      "FPS": "72/72",
+      "App": "3.11",
+      "Tear": "0",
+      "Stale": "1"
+    },
+    {
+      "FPS": "73/72",
+      "App": "3.06",
+      "Tear": "0",
+      "Stale": "0"
+    },
+    {
+      "FPS": "72/72",
+      "App": "3.07",
+      "Tear": "0",
+      "Stale": "0"
+    },
+    {
+      "FPS": "73/72",
+      "App": "3.02",
+      "Tear": "0",
+      "Stale": "0"
+    },
+    {
+      "FPS": "72/72",
+      "App": "3.04",
+      "Tear": "0",
+      "Stale": "0"
+    }
+  ],
+  "performance_scope": "Stationary underside inspection, no acquired Bird or multiplayer; six recent VRApi samples only."
+}

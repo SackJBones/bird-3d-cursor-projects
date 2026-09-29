@@ -1,0 +1,3 @@
+FAIL: System.Exception: Support stays below actual basin bed: (-5.03, -3.14, 54.04)
+  at UnityCoastalWorldChecks+<>c__DisplayClass48_0.<CheckSupport>b__4 (UnityEngine.Vector3 q) [0x0007c] in C:\Users\Dana\Documents\Bird-VRChat\bird-3d-cursor-projects\BirdWorld\Assets\BirdGenerated\Editor\UnitySupportChecks.cs:56 
+  at UnityCoastalWorldChecks.CheckSupport () [0x003f1] in C:\Users\Dana\Documents\Bird-VRChat\bird-3d-cursor-projects\BirdWorld\Assets\BirdGenerated\Editor\UnitySupportChecks.cs:58 

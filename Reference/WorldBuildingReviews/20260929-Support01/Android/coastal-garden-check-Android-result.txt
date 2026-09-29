@@ -1,0 +1,1 @@
+PASS: 3024 supported furniture vertices, 223 approach samples at three heights, 35 seated-water sightlines, 2040 triangles and seven renders. Normal-frame traversal remains separate.

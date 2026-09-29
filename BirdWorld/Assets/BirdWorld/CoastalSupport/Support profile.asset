@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30284a33caa947b8a24d9e52cba9eb80, type: 3}
+  m_Name: Support profile
+  m_EditorClassIdentifier: 
+  sections:
+  - x: -36
+    height: -20
+    halfWidth: 5
+    halfLength: 5
+  - x: -34
+    height: -15
+    halfWidth: 8
+    halfLength: 5.5
+  - x: -27
+    height: -10
+    halfWidth: 12
+    halfLength: 6
+  - x: -14
+    height: -6
+    halfWidth: 13
+    halfLength: 6
+  - x: -3
+    height: -4.5
+    halfWidth: 8
+    halfLength: 5.5
+  - x: 3
+    height: -3.25
+    halfWidth: 6
+    halfLength: 5
+  - x: 3
+    height: -2.35
+    halfWidth: 6
+    halfLength: 5
+  centerZ: 51
+  circumferenceSegments: 48
+  samplesPerSpan: 4

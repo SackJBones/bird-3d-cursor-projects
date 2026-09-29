@@ -1,0 +1,1 @@
+3600 closed oriented edges; 2400 triangles; 101 dry-slab attachment vertices; 101 root vertices behind cliff; 179 sampled basin exclusions; one collider/renderer, no runtime/lights. Views01-04 are free cameras;05-06 are standing/seated context. No physical acceptance.
