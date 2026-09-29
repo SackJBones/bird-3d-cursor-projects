@@ -1,0 +1,1 @@
+PASS: Moved the shorter seat and its planter one metre inward; rebake and route checks required.

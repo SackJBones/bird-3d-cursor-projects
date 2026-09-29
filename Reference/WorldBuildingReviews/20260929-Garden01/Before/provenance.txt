@@ -1,0 +1,1 @@
+Unchanged pre-Garden Fish01 pond views retained before the new pond check. Source heavy commit 37076d61dd8870cb305560ed50445c256c5a6ca5. These show the empty terrace for comparison, not the new layout.

@@ -1,0 +1,1 @@
+3024 supported furniture vertices; 228 route samples at three heights; 35 seated-water sightlines; 2040 instance triangles; no new runtime/lights/transparency. Seating geometry only, no VRCStation interaction. Physical comfort and client locomotion remain separate.

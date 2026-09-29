@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-29T03:16:21.352142+00:00",
+  "capture_only": false,
+  "bundle_sha256": "caf09d44a1c9a45e5b4d02d69cee8f6418e5f07b6e9c4dbb0a37364640e61b75",
+  "device_sha256": "caf09d44a1c9a45e5b4d02d69cee8f6418e5f07b6e9c4dbb0a37364640e61b75",
+  "transfer_verified": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "76",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Actual stereo capture inspected: normal arrival, pedestal and beacon with existing fallback/error avatar. Production Garden01 left running. No physical input or multiplayer acceptance."
+}

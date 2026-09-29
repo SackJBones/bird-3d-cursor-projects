@@ -1,0 +1,1 @@
+PASS: Baked 2 non-directional lightmaps and 219 light probes into ordinary scene assets.

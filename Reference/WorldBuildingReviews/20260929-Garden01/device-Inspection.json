@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-29T03:11:24.610064+00:00",
+  "capture_only": false,
+  "bundle_sha256": "dab2009ed4aea3ac7bf07703bb7d61b4c551a8e17848f5fc7be37bb5b7632e0c",
+  "device_sha256": "dab2009ed4aea3ac7bf07703bb7d61b4c551a8e17848f5fc7be37bb5b7632e0c",
+  "transfer_verified": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "76",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Initial stereo capture showed Connecting, not accepted."
+}
