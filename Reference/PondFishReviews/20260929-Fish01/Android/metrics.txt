@@ -1,0 +1,3 @@
+220 compiled steps including assertions/yields ms=1237.76
+Eastern mean distance m=7.253061 -> 0.7531336
+100 compiled 8-stimulus steps, synchronous editor CPU ms=796.31

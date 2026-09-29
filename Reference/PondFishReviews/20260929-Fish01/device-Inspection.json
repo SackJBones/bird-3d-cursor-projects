@@ -1,0 +1,56 @@
+{
+  "utc": "2026-09-29T01:02:07.920615+00:00",
+  "capture_only": false,
+  "bundle_sha256": "9d702843531fa1dbe5aab5a2c13e2c5eab27cf8f32c009ec75513c8e2df21502",
+  "device_sha256": "9d702843531fa1dbe5aab5a2c13e2c5eab27cf8f32c009ec75513c8e2df21502",
+  "transfer_verified": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "76",
+    "temperature": "380"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "last_six_stationary_samples": [
+    {
+      "FPS": "68/72",
+      "Tear": "0",
+      "Stale": "6",
+      "App": "2.18ms"
+    },
+    {
+      "FPS": "72/72",
+      "Tear": "0",
+      "Stale": "0",
+      "App": "2.45ms"
+    },
+    {
+      "FPS": "73/72",
+      "Tear": "0",
+      "Stale": "0",
+      "App": "2.65ms"
+    },
+    {
+      "FPS": "73/72",
+      "Tear": "0",
+      "Stale": "0",
+      "App": "2.66ms"
+    },
+    {
+      "FPS": "73/72",
+      "Tear": "0",
+      "Stale": "0",
+      "App": "2.66ms"
+    },
+    {
+      "FPS": "73/72",
+      "Tear": "0",
+      "Stale": "0",
+      "App": "2.70ms"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-29T01:18:31.991109+00:00",
+  "bundle_sha256": "c8f5d0562ccd70027caa3c3b6580e2a81180e675576055d1a1b663cacb967279",
+  "device_sha256": "c8f5d0562ccd70027caa3c3b6580e2a81180e675576055d1a1b663cacb967279",
+  "transfer_verified": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "76",
+    "temperature": "380"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Actual stereo image inspected: normal arrival, pedestal, beacon and existing fallback/error avatar. Production world left running."
+}

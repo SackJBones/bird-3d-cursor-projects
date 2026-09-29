@@ -1,0 +1,1 @@
+PASS: Inspection source restored byte-for-byte at 01:03 UTC. Windows export subsequently permuted only the DynamicMaterials list. Verified identical membership and all other scene bytes/text, then restored the pre-inspection source exactly after the Android recheck. No spawn or geometry changes remain.
