@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-29T10:36:07.642504+00:00",
+  "capture_only": true,
+  "app_process_running": false,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "76",
+    "temperature": "430"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Meta Finding position in room / room too dim tracking dialog still visible in both eyes; no VRChat process. Current cycle baseline is blocked, not accepted.",
+  "world_rendering_verified": false
+}

@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-29T11:08:27.836246+00:00",
+  "capture_only": false,
+  "bundle_sha256": "a083accfb2f33a79168f17cbc513cf95df2509c1a93581946dee6c0358c6d4b5",
+  "device_sha256": "a083accfb2f33a79168f17cbc513cf95df2509c1a93581946dee6c0358c6d4b5",
+  "transfer_verified": true,
+  "launch_requested": true,
+  "app_process_running": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "world_rendering_verified": true,
+  "visual_inspection": "Root inspected actual VRChat stereo normal arrival at 11:09 UTC: Bird pedestal, arrival beacon and architecture render. Latest LookoutRail01 production restored after both inspections and left running. Existing fallback avatar and fixed tilt remain. No physical Bird or multiplayer acceptance."
+}

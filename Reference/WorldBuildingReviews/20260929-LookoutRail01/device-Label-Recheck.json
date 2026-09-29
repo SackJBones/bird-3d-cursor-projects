@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-29T11:07:01.171862+00:00",
+  "capture_only": true,
+  "app_process_running": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "device_sha256": "50fd76153205b4107685de5aadefe5e5703c031d281c8f9b613d0dde0d4e1145",
+  "prior_bundle_identity_verified": true,
+  "launch_method": "Normal SDK local-world extras, using the already present hash-checked prior Label01 inspection file.",
+  "world_rendering_verified": true,
+  "visual_inspection": "Water garden / Point through to highlight readable once and correctly oriented in both eyes from the original Label01 east-pond inspection stance. Fixed tilt and existing fallback avatar remain. Single static view does not verify backface occlusion, motion or reading comfort."
+}

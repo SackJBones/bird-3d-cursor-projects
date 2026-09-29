@@ -1,0 +1,11 @@
+{
+  "android_inspection_exact_restoration": true,
+  "source_sha256": "8a7cd75a0070253b8cd44a67611f5b2dfa79461a2af09b644a52f4a93f48af0e",
+  "android_sdk_only_permuted_dynamic_materials": true,
+  "baked_source_sha256": "2c4e8347d14091c598c600f9e906c74ee02ecd67d51bc3fbecae206a46c2896b",
+  "windows_sdk_only_permuted_dynamic_materials": true,
+  "baked_scene_order_restored": true,
+  "restored_sha256": "2c4e8347d14091c598c600f9e906c74ee02ecd67d51bc3fbecae206a46c2896b",
+  "android_active_target_restored": true,
+  "scene_still_matches_baked_baseline_after_target_restore": true
+}

@@ -1,0 +1,1 @@
+PASS: One continuous lookout rail; original path, 48 posts and dimensions, guard/slab mesh bytes and GUID retained. Focused bake scale 4; rebake required.

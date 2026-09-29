@@ -1,0 +1,26 @@
+[
+  {
+    "path": "BirdWorld/Assets/BirdWorld/CoastalWorld/Meshes/03 Supported coastal terraces-019-Lookout edge safety boundary.asset",
+    "unchanged_from_clean_head": true,
+    "sha256": "6edad5732eb3db2307334514c46569ac8023115964a1c4d17bcafcd3e471438a"
+  },
+  {
+    "path": "BirdWorld/Assets/BirdWorld/CoastalWorld/Meshes/Lookout slab.asset",
+    "unchanged_from_clean_head": true,
+    "sha256": "bd270cff2f5792288a926322fcfb485c07d1e7067d89ea41c4747bbe4ab12a04"
+  },
+  {
+    "path": "BirdWorld/Assets/BirdWorld/CoastalPond/Pond rail.asset",
+    "unchanged_from_clean_head": true,
+    "sha256": "9709492fa1fca09dbdeb0bbd05e0c9331290604e02739e6d155ee228bfbc5e9f"
+  },
+  {
+    "path": "BirdWorld/Assets/BirdWorld/CoastalPond/Coast rail.asset",
+    "unchanged_from_clean_head": true,
+    "sha256": "9a2da27c26fe1f5b945580e4c9aa99379da16420a56a53d02aa1a568d72b2610"
+  },
+  {
+    "bake_uv_warning_objects": 137,
+    "lookout_edge_in_warning_list": false
+  }
+]

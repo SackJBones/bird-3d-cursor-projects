@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-29T11:05:07.025730+00:00",
+  "capture_only": false,
+  "bundle_sha256": "8a190e5f63c36f168b2e02144380f56bda6bbbd3ccdab239c889333151c12032",
+  "device_sha256": "8a190e5f63c36f168b2e02144380f56bda6bbbd3ccdab239c889333151c12032",
+  "transfer_verified": true,
+  "launch_requested": true,
+  "app_process_running": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "world_rendering_verified": true,
+  "visual_inspection": "Actual VRChat high-lookout inspection in both eyes: continuous foreground rail, distinct square faces, connected visible posts and no former gaps in this visible section. Root and independent critic inspected. Fixed tilt and existing fallback avatar limit coverage."
+}

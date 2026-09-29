@@ -1,0 +1,63 @@
+{
+  "utc": "2026-09-29T11:06:18.173190+00:00",
+  "capture_only": true,
+  "app_process_running": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "400"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "world_rendering_verified": true,
+  "visual_inspection": "Same lookout view remains visible after settling; root inspected. Sparse stills are not motion or stereo-comfort acceptance.",
+  "stationary_samples": [
+    {
+      "fps": 73.0,
+      "target_fps": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.61
+    },
+    {
+      "fps": 73.0,
+      "target_fps": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.64
+    },
+    {
+      "fps": 73.0,
+      "target_fps": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.67
+    },
+    {
+      "fps": 72.0,
+      "target_fps": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.61
+    },
+    {
+      "fps": 72.0,
+      "target_fps": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.59
+    },
+    {
+      "fps": 72.0,
+      "target_fps": 72.0,
+      "tear": 0.0,
+      "stale": 0.0,
+      "app_ms": 1.59
+    }
+  ],
+  "performance_scope": "Six late stationary samples after visual world loading; not active Bird, crowded-world or multiplayer performance. Startup samples excluded."
+}

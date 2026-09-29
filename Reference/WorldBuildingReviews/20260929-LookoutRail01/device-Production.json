@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-29T11:01:02.983958+00:00",
+  "capture_only": false,
+  "bundle_sha256": "a083accfb2f33a79168f17cbc513cf95df2509c1a93581946dee6c0358c6d4b5",
+  "device_sha256": "a083accfb2f33a79168f17cbc513cf95df2509c1a93581946dee6c0358c6d4b5",
+  "transfer_verified": true,
+  "launch_requested": true,
+  "app_process_running": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "410"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "world_rendering_verified": false,
+  "visual_inspection": "First normal production launch showed Joining; no world-rendering acceptance from this frame."
+}
