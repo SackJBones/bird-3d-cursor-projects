@@ -1,0 +1,1 @@
+54 sampled arbitrary SE(3) transformations preserve raw point and click geometry within floating-point tolerance.

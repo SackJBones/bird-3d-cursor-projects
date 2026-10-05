@@ -1,0 +1,1 @@
+PASS: Compiled Udon 25247 assertions / 297 frames; local/remote logical water stimuli, expiry/put-away, four shoals, containment, bounded motion, lifecycle, normal-frame interpolation and rendered views. Synthetic remote packets; not real multiplayer or physical Bird input.

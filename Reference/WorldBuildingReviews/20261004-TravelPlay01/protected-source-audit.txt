@@ -1,0 +1,4 @@
+TravelPlay01 protected-source audit against Cliff01 973fb88.
+BirdWorld/Assets/BirdWorld/TeleportBeacons/Bird travel network.prefab: retained original transforms / MeshFilters / MeshRenderers / BoxColliders / MeshColliders: {'4': 18, '33': 5, '23': 5}
+BirdWorld/Assets/BirdWorld/Scenes/BirdCoastalWorld.unity: retained original transforms / MeshFilters / MeshRenderers / BoxColliders / MeshColliders: {'4': 20}
+No pre-existing geometry, material, lightmap or architecture prefab asset changed in this pass. Scene adds cubes and normal SDK catalog/network-ID bookkeeping. New shell/cube assets are separate.

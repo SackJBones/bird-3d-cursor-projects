@@ -1,0 +1,1 @@
+PASS: 16 compiled/runtime assertions over 426 frames; contact crossing, physics grab/drop/stack/recovery; recording range replay and rendered surrounds. Remote-headset physical feel and real multiplayer not claimed.

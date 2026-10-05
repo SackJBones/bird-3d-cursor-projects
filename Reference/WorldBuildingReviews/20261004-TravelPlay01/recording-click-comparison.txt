@@ -1,0 +1,2 @@
+Direct recorded endpoints, not avatar estimates. Original 7/5 mm hysteresis. Unfiltered geometry: state agreement 12895/13355, presses 71 versus recorded 61.
+Current two-stage filtered candidate: state agreement 12898/13355, presses 71 versus recorded 61. Missing tracking cancels history. This is not physical avatar-click acceptance.

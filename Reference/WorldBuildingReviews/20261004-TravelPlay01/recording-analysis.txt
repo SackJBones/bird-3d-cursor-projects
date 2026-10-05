@@ -1,0 +1,34 @@
+0 0.3 n 7492 m quantiles [0.0318 0.0341 0.0371] finger [0.0852 0.0852 0.0852] gain [0.237 0.263 0.288]
+reference law median relative error 3.1054552692696925e-07
+palm normalized median ratio 0.754 median absolute log error 0.282
+classic normalized median ratio 1.19 median absolute log error 0.174
+palm median ratio 0.654 median absolute log error 0.425
+current full limits median ratio 0.654 median log1p error 0.047
+candidate classic range anchor .085 median ratio 0.994 median log1p error 0.001
+flat/fist active 0.0 0.705
+0.3 4 n 3808 m quantiles [0.0468 0.0598 0.0663] finger [0.0852 0.0852 0.0852] gain [0.104 0.122 0.179]
+reference law median relative error 2.6813370881067873e-07
+palm normalized median ratio 1.035 median absolute log error 0.096
+classic normalized median ratio 1.347 median absolute log error 0.298
+palm median ratio 0.779 median absolute log error 0.25
+current full limits median ratio 1.027 median log1p error 0.049
+candidate classic range anchor .085 median ratio 0.99 median log1p error 0.006
+flat/fist active 0.113 0.0
+4 30 n 846 m quantiles [0.0726 0.0783 0.094 ] finger [0.0852 0.0852 0.0852] gain [0.055 0.081 0.096]
+reference law median relative error 2.2097371464608163e-07
+palm normalized median ratio 1.164 median absolute log error 0.153
+classic normalized median ratio 1.377 median absolute log error 0.32
+palm median ratio 0.847 median absolute log error 0.168
+current full limits median ratio 1.856 median log1p error 0.558
+candidate classic range anchor .085 median ratio 0.989 median log1p error 0.009
+flat/fist active 0.992 0.0
+30 10000 n 1205 m quantiles [0.1089 0.138  0.1886] finger [0.0852 0.0852 0.0852] gain [0.016 0.034 0.051]
+reference law median relative error 1.0408529845665799e-06
+palm normalized median ratio 1.43 median absolute log error 0.358
+classic normalized median ratio 1.392 median absolute log error 0.33
+palm median ratio 1.028 median absolute log error 0.041
+current full limits median ratio 858999.203 median log1p error 13.663
+candidate classic range anchor .085 median ratio 0.989 median log1p error 0.011
+flat/fist active 1.0 0.0
+finger-length 5/50/95% [0.08516055 0.08516075 0.08516095]
+q [0.001]

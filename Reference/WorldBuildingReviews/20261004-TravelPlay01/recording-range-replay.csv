@@ -1,0 +1,7 @@
+October 3 direct-hand geometry replay; NOT paired VRChat avatar data or physical feel validation.
+Original polynomial retained; palm ray origin retained; classical center-distance range anchor and 85 mm normalization.
+band,samples,median_absolute_log1p_range_error,p90
+0,7492,0.0007185489,0.001620859
+1,3808,0.006007135,0.007555366
+2,846,0.009466648,0.0105598
+3,1209,0.01122904,0.0113163
