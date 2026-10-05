@@ -1,0 +1,1 @@
+PASS: Compiled Udon 345 assertions / 230 frames: finite disk targeting, rail-gap return neighborhood, real player-guard containment, landing footprint/headroom, read-only click-practice lifecycle, both-hand arbitration, gated travel, local teleport and renders. Explicit pointer/depth fixtures; not finger-click, physical comfort or multiplayer acceptance.

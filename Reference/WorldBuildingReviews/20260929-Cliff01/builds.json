@@ -1,0 +1,20 @@
+[
+  {
+    "platform": "Android",
+    "file": "BirdCoastalWorld_Android.vrcw",
+    "bytes": 1944478,
+    "sha256": "9F4133B75DA76672A38363EFFF92E1DF1D80B1FE43FAE36C18B680993F6D8EEE"
+  },
+  {
+    "platform": "Android inspection",
+    "file": "BirdCoastalWorld_VistaInspection_Android.vrcw",
+    "bytes": 1943529,
+    "sha256": "9FC028C7588D51812883B6ECF88D230E877485CF6AC6BA7193131BBC47639979"
+  },
+  {
+    "platform": "Windows",
+    "file": "BirdCoastalWorld_Windows.vrcw",
+    "bytes": 2166645,
+    "sha256": "4E1C25E1E7FD510D64EB45B8ED4C9BD6F0075D3BBD16734E7D27F822D4E3956B"
+  }
+]

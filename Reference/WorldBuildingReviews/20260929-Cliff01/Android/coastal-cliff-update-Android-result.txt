@@ -1,0 +1,1 @@
+PASS: Updated only cliff mesh from saved profile/baseline; rebake required.

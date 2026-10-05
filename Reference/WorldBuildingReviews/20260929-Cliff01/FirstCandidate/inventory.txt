@@ -1,0 +1,1 @@
+198 triangles; all 176 untouched triangles retained; original boundary/winding retained with no new T-junctions. Room/wing and full R06 enclosure checks pass. Seven matched views; final bake/device review separate.

@@ -1,0 +1,1 @@
+PASS: SDK and UdonSharp active-platform defines configured and compilation settled for Standalone.

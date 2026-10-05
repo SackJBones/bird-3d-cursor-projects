@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-29T12:37:41.880047+00:00",
+  "capture_only": true,
+  "app_process_running": true,
+  "battery": {
+    "AC powered": "true",
+    "USB powered": "false",
+    "Weak Charger": "false",
+    "level": "77",
+    "temperature": "380"
+  },
+  "matched_udon_error_lines": 0,
+  "png_integrity_verified": true,
+  "physical_feel_verified": false,
+  "multiplayer_verified": false,
+  "visual_inspection": "Root inspected actual stereo VRChat normal arrival from prior LookoutRail01 build. Existing fallback avatar and fixed tilt remain.",
+  "world_rendering_verified": true
+}

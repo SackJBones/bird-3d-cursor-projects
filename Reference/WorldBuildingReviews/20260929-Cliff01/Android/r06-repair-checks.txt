@@ -1,0 +1,1 @@
+PASS: seven repair meshes closed with consistently paired directed edges (6696 edges); 2268 riser/tread/crown/rear-wall rays, wing roof coverage and standing-volume rock exclusion. Saved rendering and collision share meshes. This is sampled geometry, not physical comfort.
